@@ -1,0 +1,23 @@
+/* CSS Styles for Admin pages */
+
+#wc_aelia_blacklister_form .buttons {
+	margin-top: 2em;
+}
+
+#wc_aelia_blacklister_form label,
+#wc_aelia_blacklister_form .label {
+	font-weight: bold;
+}
+
+#wc_aelia_blacklister_form label li,
+#wc_aelia_blacklister_form label p {
+	font-weight: normal;
+}
+
+#wc_aelia_blacklister_form .blacklist {
+	width: 90%;
+}
+
+#wc_aelia_blacklister_form #section-blacklists_section th {
+	width: 30%;
+}

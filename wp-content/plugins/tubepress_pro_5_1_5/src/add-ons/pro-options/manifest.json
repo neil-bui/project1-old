@@ -1,0 +1,31 @@
+{
+    "name"    : "tubepress/pro-options",
+    "version" : "5.1.5",
+    "title"   : "TubePress Pro Options",
+    "authors" : [
+        {
+            "name" : "TubePress LLC",
+            "url"  : "http://tubepress.com"
+        }
+    ],
+    "license" : {
+        "type" : "proprietary",
+        "urls" : [ "http://tubepress.com/license/" ]
+    },
+    "container-builder" : {
+        "extensions" : [
+            "tubepress_pro_options_ioc_ProOptionsExtension"
+        ],
+        "compiler-passes" : {
+            "tubepress_pro_options_ioc_compiler_ProOptionsCompilerPass" : 80000
+        }
+    },
+    "autoload" : {
+        "classmap" : {
+            "tubepress_pro_options_impl_MemoryPersistenceBackend"       : "classes/tubepress/pro/options/impl/MemoryPersistenceBackend.php",
+            "tubepress_pro_options_impl_listeners_ProOptionValidity"    : "classes/tubepress/pro/options/impl/listeners/ProOptionValidity.php",
+            "tubepress_pro_options_ioc_compiler_ProOptionsCompilerPass" : "classes/tubepress/pro/options/ioc/compiler/ProOptionsCompilerPass.php",
+            "tubepress_pro_options_ioc_ProOptionsExtension"             : "classes/tubepress/pro/options/ioc/ProOptionsExtension.php"
+        }
+    }
+}

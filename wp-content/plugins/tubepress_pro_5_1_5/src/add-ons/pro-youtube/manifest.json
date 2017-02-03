@@ -1,0 +1,27 @@
+{
+    "name"    : "tubepress/pro-youtube",
+    "version" : "5.1.5",
+    "title"   : "TubePress Pro YouTube",
+    "authors" : [
+        {
+            "name" : "TubePress LLC",
+            "url"  : "http://tubepress.com"
+        }
+    ],
+    "license" : {
+        "type" : "proprietary",
+        "urls" : [ "http://tubepress.com/license/" ]
+    },
+    "container-builder" : {
+        "extensions" : [
+            "tubepress_pro_youtube_ioc_ProYouTubeExtension"
+        ]
+    },
+    "autoload" : {
+        "classmap" : {
+            "tubepress_pro_youtube_impl_listeners_ProControlsListener" : "classes/tubepress/pro/youtube/impl/listeners/ProControlsListener.php",
+            "tubepress_pro_youtube_impl_listeners_ProHttpItemListener" : "classes/tubepress/pro/youtube/impl/listeners/ProHttpItemListener.php",
+            "tubepress_pro_youtube_ioc_ProYouTubeExtension"            : "classes/tubepress/pro/youtube/ioc/ProYouTubeExtension.php"
+        }
+    }
+}

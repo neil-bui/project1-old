@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Envira Album Styles
+   ========================================================================== */
+/**
+* Main Wrapper
+*/
+.envira-gallery-wrap {
+  /**
+  * Description
+  */
+  /**
+  * Gallery Titles
+  */
+  /**
+  * Image Count
+  */
+  /**
+  * Alignment
+  */ }
+  .envira-gallery-wrap .envira-gallery-description-above {
+    margin-bottom: 20px; }
+  .envira-gallery-wrap .envira-gallery-description-below {
+    margin-top: 20px; }
+  .envira-gallery-wrap .envira-album-title {
+    text-align: center;
+    margin: 5px 0; }
+  .envira-gallery-wrap .envira-album-image-count {
+    text-align: center;
+    margin: 5px 0; }
+  .envira-gallery-wrap.envira-gallery-align-left {
+    float: left; }
+  .envira-gallery-wrap.envira-gallery-align-right {
+    float: right; }
+  .envira-gallery-wrap.envira-gallery-align-center {
+    margin-left: auto;
+    margin-right: auto; }

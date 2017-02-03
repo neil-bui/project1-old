@@ -1,0 +1,28 @@
+{
+    "name"    : "tubepress/pro-media",
+    "version" : "5.1.5",
+    "title"   : "TubePress Pro Media Listeners",
+    "authors" : [
+        {
+            "name" : "TubePress LLC",
+            "url"  : "http://tubepress.com"
+        }
+    ],
+    "license" : {
+        "type" : "proprietary",
+        "urls" : [ "http://tubepress.com/license/" ]
+    },
+    "container-builder" : {
+        "extensions" : [
+            "tubepress_pro_media_ioc_ProMediaExtension"
+        ]
+    },
+    "autoload" : {
+        "classmap" : {
+            "tubepress_pro_media_impl_listeners_AbstractHttpItemListener"                : "classes/tubepress/pro/media/impl/listeners/AbstractHttpItemListener.php",
+            "tubepress_pro_media_impl_listeners_LegacyMultipleSourcesCollectionListener" : "classes/tubepress/pro/media/impl/listeners/LegacyMultipleSourcesCollectionListener.php",
+            "tubepress_pro_media_impl_listeners_ModernMultipleSourcesCollectionListener" : "classes/tubepress/pro/media/impl/listeners/ModernMultipleSourcesCollectionListener.php",
+            "tubepress_pro_media_ioc_ProMediaExtension"                                  : "classes/tubepress/pro/media/ioc/ProMediaExtension.php"
+        }
+    }
+}

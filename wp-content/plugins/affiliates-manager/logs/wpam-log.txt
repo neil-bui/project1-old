@@ -1,0 +1,1163 @@
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127023
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Integration - Total amount: 139.97, Total shipping: 0, Total tax: 0
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 8:21 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127042
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127042
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 8:55 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 125976
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Total amount: 199.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 124310
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Total amount: 199.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127037
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127034
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:01 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127038
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 499.98, Total shipping: 0, Total tax: 0
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127043
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 9:02 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 9:27 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127046
+[02/02/2017 9:27 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:27 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 9:27 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 9:27 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127046
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:28 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:36 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127047
+[02/02/2017 9:36 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:36 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 9:36 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 9:36 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127047
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127047
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 9:38 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127048
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127048
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - Total amount: 439.99, Total shipping: 0, Total tax: 0
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1163a391ndss
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1163
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: jNY9dV05Evz4vz-V4YgQwOG85s1
+[02/02/2017 9:47 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127048, Purchase amount: 439.99, Affiliate ID: jNY9dV05Evz4vz-V4YgQwOG85s1, Buyer Email: paulmcclellan23@aol.com
+[02/02/2017 10:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127049
+[02/02/2017 10:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:03 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:03 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:03 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127051
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127051
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - Total amount: 224.99, Total shipping: 0, Total tax: 0
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 10:07 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 10:39 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/02/2017 10:39 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:39 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:39 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:39 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:40 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/02/2017 10:40 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:40 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:40 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:40 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:41 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/02/2017 10:41 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:41 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:41 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:41 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - Total amount: 339.99, Total shipping: 0, Total tax: 0
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1163a391ndss
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1163
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: Y7x37OFdAyhSC5jQI-RtVZyhwS2
+[02/02/2017 10:42 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127053, Purchase amount: 339.99, Affiliate ID: Y7x37OFdAyhSC5jQI-RtVZyhwS2, Buyer Email: kristinegreb@gmail.com
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127054
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127054
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127054
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-193a800pimd
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 193
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Coupons Integration - Commission will be awarded to Affiliate ID: 193
+[02/02/2017 10:48 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127054, Purchase amount: 239.99, Affiliate ID: 1035, Buyer Email: trailmixedalot@gmail.com
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127056
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127056
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 11:15 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127057
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127057
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b29380-598b4gj2987mm
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b29380-598b4gj2987mm
+[02/02/2017 11:18 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127058
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127058
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/02/2017 11:25 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127059
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127059
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:48 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127059
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127059
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: jPsBfY2qYB5wfqWDSC2WJTz7i39
+[02/02/2017 11:50 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127059, Purchase amount: 239.99, Affiliate ID: jPsBfY2qYB5wfqWDSC2WJTz7i39, Buyer Email: shelbyc111@hotmail.com
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127060
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127060
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:00 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127061
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127061
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:04 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127062
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127062
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - Total amount: 289.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1511a965blhp
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1511
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Coupons Integration - New refkey: GX-KpH5CqT8GFLYF7elOuXPdoFd
+[02/03/2017 12:10 AM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127062, Purchase amount: 289.99, Affiliate ID: GX-KpH5CqT8GFLYF7elOuXPdoFd, Buyer Email: darrold.raymond@yahoo.com
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127063
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127063
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:28 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127064
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127064
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127065
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:47 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:48 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127065
+[02/03/2017 12:48 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:48 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:48 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:48 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127066
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127066
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:50 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 1:09 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127067
+[02/03/2017 1:09 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:09 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:09 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:09 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127068
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127068
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - Total amount: 339.99, Total shipping: 0, Total tax: 0
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Coupons Integration - New refkey: OeCQn8BUzJiAvDtGy76nSMM8bsb
+[02/03/2017 1:10 AM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127068, Purchase amount: 339.99, Affiliate ID: OeCQn8BUzJiAvDtGy76nSMM8bsb, Buyer Email: mackerman@hargray.com
+[02/03/2017 1:15 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127067
+[02/03/2017 1:15 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:15 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:15 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:15 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127021
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127021
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127021
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - Total amount: 499.98, Total shipping: 0, Total tax: 0
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 1:21 AM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127021, Purchase amount: 499.98, Affiliate ID: 1035, Buyer Email: cbathauer@salesforce.com
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127069
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127069
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 2:04 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127070
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127070
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127070
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 2:30 AM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127070, Purchase amount: 24.99, Affiliate ID: 1035, Buyer Email: sepp@gabelberger.com
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127071
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127071
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 2:37 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127072
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127072
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - Total amount: 15.99, Total shipping: 0, Total tax: 0
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 2:55 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 3:05 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127073
+[02/03/2017 3:05 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:05 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:05 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:05 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127074
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127074
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 3:15 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127075
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127075
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 3:32 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127076
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127076
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - Total amount: 15.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 3:39 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127077
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127077
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 3:54 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 4:39 AM] - SUCCESS : Mailchimp integration addon. After registration hook. Debug data: Swagway Affiliates|focker_k@hotmail.com|ken|fries
+[02/03/2017 4:39 AM] - SUCCESS : Mailchimp integration - Doing list signup...
+[02/03/2017 4:39 AM] - SUCCESS : Checking list name : Swagway Affiliates
+[02/03/2017 4:39 AM] - SUCCESS : Found a match for the list name on MailChimp. List ID :ab966898e0
+[02/03/2017 4:39 AM] - SUCCESS : List ID to subscribe to:ab966898e0
+[02/03/2017 4:39 AM] - SUCCESS : MailChimp Signup was successful.
+[02/03/2017 4:39 AM] - SUCCESS : Affiliate Application for Swagtron.com
+[02/03/2017 4:39 AM] - SUCCESS : Sending an email to focker_k@hotmail.com
+[02/03/2017 4:39 AM] - SUCCESS : Email was sent successfully by WordPress
+[02/03/2017 4:39 AM] - SUCCESS : New Affiliate Registration
+[02/03/2017 4:39 AM] - SUCCESS : Sending an email to caleb@zake.com
+[02/03/2017 4:39 AM] - SUCCESS : Email was sent successfully by WordPress
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127078
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127078
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127078
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-193a800pimd
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 193
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Coupons Integration - Commission will be awarded to Affiliate ID: 193
+[02/03/2017 5:03 AM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127078, Purchase amount: 239.99, Affiliate ID: 1035, Buyer Email: griseldasanchez@ymail.com
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127079
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127079
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:13 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:29 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127080
+[02/03/2017 5:29 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:29 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:29 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:29 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:36 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127081
+[02/03/2017 5:36 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:36 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:36 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:36 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:37 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127081
+[02/03/2017 5:37 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:37 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:37 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:37 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:38 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127081
+[02/03/2017 5:38 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:38 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:38 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:38 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127082
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127082
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:39 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127083
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127083
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - Total amount: 481.49, Total shipping: 0, Total tax: 31.5
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 9:28 AM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 9:42 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127084
+[02/03/2017 9:42 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 9:42 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 9:42 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 9:42 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 9:43 AM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127084
+[02/03/2017 9:43 AM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 9:43 AM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 9:43 AM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 9:43 AM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127085
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127085
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - Total amount: 339.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: w8rPmFj4jyIwsXUWuKRqiSLLr97
+[02/03/2017 12:27 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127085, Purchase amount: 339.99, Affiliate ID: w8rPmFj4jyIwsXUWuKRqiSLLr97, Buyer Email: scotthudson231@gmail.com
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1511) with order. Order ID: 127086
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127086
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127086
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - Total amount: 224.99, Total shipping: 0, Total tax: 0
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 12:41 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127086, Purchase amount: 224.99, Affiliate ID: 1511, Buyer Email: william111@windstream.net
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127087
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127087
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - Total amount: 299.99, Total shipping: 0, Total tax: 0
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 1:41 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127088
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127088
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 1:57 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 2:07 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127089
+[02/03/2017 2:07 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 2:07 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 2:07 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 2:07 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1844) with order. Order ID: 127090
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127090
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127090
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1844a413oijw
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1844
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Coupons Integration - Commission will be awarded to Affiliate ID: 1844
+[02/03/2017 3:18 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127090, Purchase amount: 239.99, Affiliate ID: 1844, Buyer Email: vickielynn84@gmail.com
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127091
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127091
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 3:23 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127092
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127092
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: ,guFlu1EtC,DGR2gBbJ0P2R3oUe
+[02/03/2017 3:34 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127092, Purchase amount: 239.99, Affiliate ID: ,guFlu1EtC,DGR2gBbJ0P2R3oUe, Buyer Email: thomasandlisi@hotmail.com
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127093
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127093
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - Total amount: 14.99, Total shipping: 0, Total tax: 0
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 4:12 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127094
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127094
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 4:15 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127095
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127095
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - Total amount: 369.98, Total shipping: 0, Total tax: 0
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-220a347isif
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 220
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: hi33j3qwH5rA1UO5eu020eMqg91
+[02/03/2017 4:40 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127095, Purchase amount: 369.98, Affiliate ID: hi33j3qwH5rA1UO5eu020eMqg91, Buyer Email: judybaldini@yahoo.com
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127096
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127096
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127096
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Total amount: 239.99, Total shipping: 0, Total tax: 0
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1035a229bifh
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1035
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - Commission will be awarded to Affiliate ID: 1035
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127096, Purchase amount: 239.99, Affiliate ID: 1035, Buyer Email: stimpdog27@gmail.com
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127097
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127097
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - Total amount: 449.99, Total shipping: 0, Total tax: 0
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 4:47 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127098
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127098
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127098
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 4:58 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127098, Purchase amount: 249.99, Affiliate ID: 1035, Buyer Email: ajzadams@hotmail.com
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127090
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127035
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127039
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 299.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127040
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 299.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127051
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 224.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127062
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127086
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127087
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 299.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127088
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127072
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 15.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127076
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 15.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127042
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127046
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127058
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127056
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:03 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127063
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127061
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127060
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127070
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127079
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127083
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 481.49, Total shipping: 0, Total tax: 31.5
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127057
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b29380-598b4gj2987mm
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b29380-598b4gj2987mm
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127048
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127085
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127068
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127082
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127053
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127075
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127054
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127059
+[02/03/2017 5:04 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127099
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127099
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Total amount: 339.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: 77ccQENrScno3Df4xV2ypFIZDa9
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127099, Purchase amount: 339.99, Affiliate ID: 77ccQENrScno3Df4xV2ypFIZDa9, Buyer Email: amy@knoell.us
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127021
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127100
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127100
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Total amount: 439.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1163a391ndss
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1163
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Generating refkey for this affiliate
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - New refkey: qdJdoeud1bJ9ychMAw29h,0lvO7
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127100, Purchase amount: 439.99, Affiliate ID: qdJdoeud1bJ9ychMAw29h,0lvO7, Buyer Email: jcava@cavabankocpa.com
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127069
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127077
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127078
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127066
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:05 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127064
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127071
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127074
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:06 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127101
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127101
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - Total amount: 149.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b21072-696d4uc4619ni
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b21072-696d4uc4619ni
+[02/03/2017 5:11 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127102
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127102
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - Total amount: 149.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b28827-300l6uk4331eo
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b28827-300l6uk4331eo
+[02/03/2017 5:14 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:26 PM] - SUCCESS : Mailchimp integration addon. After registration hook. Debug data: Swagway Affiliates|elaine.provost@ihs.gov|Elaine|Provost
+[02/03/2017 5:26 PM] - SUCCESS : Mailchimp integration - Doing list signup...
+[02/03/2017 5:26 PM] - SUCCESS : Checking list name : Swagway Affiliates
+[02/03/2017 5:26 PM] - SUCCESS : Found a match for the list name on MailChimp. List ID :ab966898e0
+[02/03/2017 5:26 PM] - SUCCESS : List ID to subscribe to:ab966898e0
+[02/03/2017 5:26 PM] - SUCCESS : MailChimp Signup was successful.
+[02/03/2017 5:26 PM] - SUCCESS : Affiliate Application for Swagtron.com
+[02/03/2017 5:26 PM] - SUCCESS : Sending an email to elaine.provost@ihs.gov
+[02/03/2017 5:26 PM] - SUCCESS : Email was sent successfully by WordPress
+[02/03/2017 5:26 PM] - SUCCESS : New Affiliate Registration
+[02/03/2017 5:26 PM] - SUCCESS : Sending an email to caleb@zake.com
+[02/03/2017 5:26 PM] - SUCCESS : Email was sent successfully by WordPress
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127103
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127103
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:49 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127104
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127104
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 5:51 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 126880
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Integration - Total amount: 109.98, Total shipping: 0, Total tax: 0
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 6:43 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127092
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127094
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127098
+[02/03/2017 7:01 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127096
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127095
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127102
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 149.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b28827-300l6uk4331eo
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b28827-300l6uk4331eo
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127101
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 149.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-b21072-696d4uc4619ni
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - No Affiliate ID associated with coupon code: swag-b21072-696d4uc4619ni
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127100
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127099
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Affiliate commission for this transaction was awarded once. No need to process anything.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127097
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Order status: completed
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - Total amount: 449.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:02 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Saving wpam_id (1035) with order. Order ID: 127105
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127105
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127105
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - Total amount: 679.98, Total shipping: 0, Total tax: 0
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Coupons Integration - Found a coupon code for this transaction. Coupon Code: swag-1894a588ksjg
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Coupons Integration - Affiliate ID value for this coupon code: 1894
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Coupons Integration - Commission will be awarded to Affiliate ID: 1894
+[02/03/2017 7:06 PM] - SUCCESS : WooCommerce Integration - awarding commission for order ID: 127105, Purchase amount: 679.98, Affiliate ID: 1035, Buyer Email: diegoajatoba@gmail.com
+[02/03/2017 7:07 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127106
+[02/03/2017 7:07 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:07 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:07 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:07 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127106
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127106
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - Total amount: 24.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:08 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127107
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127107
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:13 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:17 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127108
+[02/03/2017 7:17 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:17 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:17 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:17 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127109
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127109
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - Total amount: 249.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:19 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127111
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127111
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - Total amount: 15.99, Total shipping: 0, Total tax: 0
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 7:40 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127112
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127112
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 8:13 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127115
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Order status: pending
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Order status for this transaction is not in a 'completed' or 'processing' state. Commission will not be awarded at this stage.
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Commission for this transaciton will be awarded when you set the order status to completed or processing.
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Order processed. Order ID: 127115
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Checking if affiliate commission needs to be awarded.
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Order status: processing
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - Total amount: 349.99, Total shipping: 0, Total tax: 0
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Coupons Integration - Checking coupons for this transaction
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Coupons Integration - No coupons used for this woocommerce transaction.
+[02/03/2017 8:19 PM] - SUCCESS : WooCommerce Integration - could not get wpam_id/wpam_refkey from cookie. This is not an affiliate sale
