@@ -3,8 +3,8 @@ Contributors: niravmehta, ratnakar.dubey, Tarun.Parswani, Mansi Shah
 Donate link: http://www.storeapps.org/
 Tags: woocommerce, coupon, credit, store credit, gift, certificate, voucher, discount, gift certificate, gift voucher, customer, self service
 Requires at least: 3.5
-Tested up to: 4.6.1
-Stable tag: 3.1.9
+Tested up to: 4.7.2
+Stable tag: 3.2
 
 Powerful, "all in one" solution for gift certificates, store credits, discount coupons and vouchers. Allows customers to buy credits for themselves or gift them to others. Unique "Apply Coupon with One Click" technology during checkout, tight integration with WooCommerce and automatic maintenance.
 

@@ -26,13 +26,14 @@ class WoocommerceGpfFrontend {
 
 		global $wp_query;
 
-		if ( 'google' === $wp_query->query_vars['woocommerce_gpf'] ) {
+		$feed_type = isset( $wp_query->query_vars['woocommerce_gpf'] ) ? $wp_query->query_vars['woocommerce_gpf'] : '';
+		if ( 'google' === $feed_type ) {
 			$this->feed        = new WoocommerceGpfFeedGoogle();
 			$this->feed_format = 'google';
-		} elseif ( 'googleinventory' === $wp_query->query_vars['woocommerce_gpf'] ) {
+		} elseif ( 'googleinventory' === $feed_type ) {
 			$this->feed        = new WoocommerceGpfFeedGoogleInventory();
 			$this->feed_format = 'googleinventory';
-		} elseif ( 'bing' === $wp_query->query_vars['woocommerce_gpf'] ) {
+		} elseif ( 'bing' === $feed_type ) {
 			$this->feed        = new WoocommerceGpfFeedBing();
 			$this->feed_format = 'bing';
 		}
