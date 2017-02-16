@@ -483,3 +483,110 @@ function hook_css() {
 	echo $output;
 }
 add_action('wp_head','hook_css');
+
+
+// Product Video
+function product_video( $atts ) {
+    global $vid_title, $vid_description, $vid_youtube_id, $vid_call_to_action, $vid_call_to_action_link;
+    // Attributes
+    extract( shortcode_atts(
+        array(
+            'vid_title' => '',
+            'vid_description' => '',
+		    'vid_youtube_id' => '',
+            'vid_call_to_action' => '',
+			'vid_call_to_action_link' => '',
+
+        ), $atts )
+    );
+
+    $vid_title = $vid_title;
+    $vid_description = $vid_description;
+	$vid_youtube_id = $vid_youtube_id;
+	$vid_call_to_action = $vid_call_to_action;
+	$vid_call_to_action_link = $vid_call_to_action_link;
+
+}
+add_shortcode( 'product_video', 'product_video' );
+
+
+// Product Video Anywhere
+function product_video_anywhere($atts = [], $content = null){
+
+   $movie_details="";
+   // get attibutes and set defaults
+        extract(shortcode_atts(array(
+                'vidany_title' => '',
+                'vidany_youtube_id' => '',
+				'vidany_call_to_action' => '',
+				'vidany_call_to_action_link' => '',
+                'vidany_description' => ''
+       ), $atts));
+    // Display info 
+    $movie_details = '	
+	<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
+	<div style="border-bottom: 1px solid #e8e8e8; margin-bottom: 9px"><img src="http://150percenthosting.com/swagtron/video.png" width="70" height="70" alt=""/>
+	<h2 style="float: right">' .$vidany_title. '</h2>
+	</div><div class="row">
+		<div class="video_box" >		
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>';
+    $movie_details .= ' <script>
+var tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player("ytplayer", {
+        height: "250",
+        width: "444",
+    videoId: "' .$vidany_youtube_id. '",
+    events: {
+      "onReady": onPlayerReady
+    }
+  });
+}
+
+function onPlayerReady(event) {
+    event.target.playVideo();
+    event.target.setPlaybackQuality("hd720");
+    event.target.setVolume(0);
+}
+
+
+      $(window).scroll(function() {
+        $("iframe").each( function() {
+            if( $(window).scrollTop() > $(this).offset().top - 225 ) {
+                $(this).css("opacity",1);
+                player.playVideo();
+            } else {
+                $(this).css("opacity",1);
+                player.stopVideo();
+            }
+        }); 
+    });
+	
+
+    </script>';
+    $movie_details .= '					<div class="video-container">
+         <div id="ytplayer">Swagtron</div>
+
+</div>
+
+	    </div>
+		<div class="video_description" >	
+
+			<div class="hoverboard_description" style="line-height: 25px; font-size: 14px; padding: 20px; margin: 0px ">
+				' .$vidany_description. '
+		   
+		<a href="' .$vidany_call_to_action_link. '">   <button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px">' .$vidany_call_to_action. '</button></a>
+		    
+		      </div>
+	    </div></section>';
+    return $movie_details;
+}
+//add our shortcode movie
+add_shortcode('product_video_anywhere', 'product_video_anywhere');
+add_action( 'parse_comment_query', 'product_video_anywhere');
+add_action( 'init', 'product_video_anywhere');
