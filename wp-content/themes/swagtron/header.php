@@ -80,6 +80,7 @@ window.onload = function(){
 }();
 </script>
 
+
 </head>
 
 <body <?php body_class(); ?> >
@@ -168,31 +169,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><a href="https://swagtron.com/product/swagway-x2-hoverboard/">Swagway X2</a></li>
               </ul>
             </li>
+            
             <li><a href="<?php echo get_term_link(60); ?>">Electric Scooters</a>
               <ul>
                 <li><a href="https://swagtron.com/product/swagger-carbon-fiber-electric-scooter">Swagger Scooter</a></li>
                 <li><a href="https://swagtron.com/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a></li>
               </ul>
             </li>
-            <li class="homelogo">
-							<a href="<?php echo site_url(); ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo">
-							</a>
-						</li>
-            <li><a href="<?php echo get_term_link(59); ?>">Electric Skateboard</a>
+            
+           <li><a href="<?php echo get_term_link(59); ?>">Electric Skateboard</a>
               <ul>
                 <li><a href="https://swagtron.com/product/swagboard-ng-1-nextgen-electric-skateboard/">Swagboard</a></li>
                 <li><a href="https://swagtron.com/product/swagtron-voyager-professional-42-electric-longboard-with-remote-control/">Voyager Longboard</a></li>
               </ul>
             </li>
-            <li><a href="<?php echo get_term_link(76); ?>">Extras</a>
-              <ul>
+            <li class="homelogo" style="margin-right:20px; padding:0">
+							<a href="<?php echo site_url(); ?>">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo">
+							</a>
+						</li>
+            <li><a href="<?php echo get_term_link(59); ?>">Electric Bike</a>
+            </li>
+            
+            <li><a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a>
+            </li>
+                        <li><a href="<?php echo get_term_link(76); ?>">CLEARANCE</a>
+              <ul id="endNav">
                 <li><a href="<?php echo get_term_link(49); ?>">Clothing & Bags</a></li>
                 <li><a href="https://swagtron.com/product/1-year-accidental-damage-warranty/">Accidental Warranty</a></li>
-                <li><a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a></li>
                 <li><a href="<?php echo get_term_link(51); ?>">CLEARANCE ITEMS</a></li>
               </ul>
             </li>
+
           </ul>
         </div>
       </div>

@@ -19,6 +19,8 @@ $cart_url = WC()->cart->get_cart_url();
 .jck-wt-thumbnails-wrap,.jck-wt-images__slide{display:none}
 .jck-wt-images__slide.jck-wt-images__slide--active{display:block}
 </style>
+  
+
 
   <!-- Start Body Wrapper -->
   <div class="body_warp">
@@ -32,7 +34,6 @@ $cart_url = WC()->cart->get_cart_url();
         </div>
       </section>
 			<!-- End of Banner Section -->
-
 
 
 
@@ -64,40 +65,72 @@ $cart_url = WC()->cart->get_cart_url();
 
 
 
-      <section class="lineup_sec">
+      <section class="lineup_sec" style="display: block">
         <h2 class="lineup_text">The SwagTron Lineup</h2>
         <div class="row">
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
+
+
+        </div>
+        
+     <div class="wrap">
+    
+    <!-- Define all of the tiles: -->
+    <div class="box">
+      <div class="boxInner">
 						<a href="<?php echo get_term_link( 54 ); ?>">
 							<div class="orangediv">
 								<div class="lineuptext">HOVERBOARDS</div>
 								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image1.png" alt="HOVERBOARDS">
+									<img class="grow" src="<?php echo get_template_directory_uri(); ?>/images/lineup_image1.png" alt="HOVERBOARDS">
 								</h3>
 							</div>
-						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
+						</a>    </div>
+    </div>
+    
+    <div class="box">
+      <div class="boxInner">
 						<a href="<?php echo get_term_link( 59 ); ?>">
 							<div class="blackdiv">
 								<div class="lineuptext">ELECTRIC SKATEBOARDS</div>
 								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image2.png" alt="ELECTRIC SKATEBOARDS">
+									<img class="grow" style="padding-top: 20px" src="<?php echo get_template_directory_uri(); ?>/images/lineup_image2.png" alt="ELECTRIC SKATEBOARDS">
 								</h3>
 							</div>
 						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="boxInner">
 						<a href="<?php echo get_term_link( 60 ); ?>">
 							<div class="yellowdiv">
 								<div class="lineuptext">ELECTRIC SCOOTERS</div>
 								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image3.png" alt="ELECTRIC SCOOTERS">
+									<img class="grow" src="<?php echo get_template_directory_uri(); ?>/images/lineup_image3.png" alt="ELECTRIC SCOOTERS">
 								</h3>
 							</div>
 						</a>
-					</div>
-        </div>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="boxInner">
+<a href="<?php echo get_term_link( 60 ); ?>">
+							<div class="bluediv ">
+								<div class="lineuptext">ELECTRIC BIKE</div>
+							
+								<h3 class="lineupimagediv">
+								
+									<img class="grow" src="<?php echo get_template_directory_uri(); ?>/images/lineup_image4.png" alt="ELECTRIC E-BIKE">
+									
+									</div>		</h3>
+						
+						</a>      </div>
+    </div>
+    
+  </div>
+        
+        
       </section>
 
 
@@ -184,7 +217,7 @@ $cart_url = WC()->cart->get_cart_url();
 										</a>
 									</div>
 									<div class="home_blogpara"><?php the_excerpt(); ?></div>
-									<div class="full_story"><a href="<?php echo get_permalink(); ?>">Get the full story</a></div>
+									<!--<div class="full_story"><a href="<?php echo get_permalink(); ?>">Get the full story</a></div>-->
 								</div>
 							</div>
 						<?php endwhile; ?>
