@@ -1,5 +1,8 @@
 *** WooCommerce Google Product Feed Changelog ***
 
+2017.02.06 - version 7.0.2
+* Fix issue where PHP warning could be generated.
+
 2017.01.20 - version 7.0.1
 * Fix issue where partial (chunked) feed settings were not always applied.
 

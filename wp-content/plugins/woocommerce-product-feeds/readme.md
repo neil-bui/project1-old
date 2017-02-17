@@ -3,7 +3,7 @@
 * __Tags__: e-commerce, woocommerce, e-commerce
 * __Requires at least__: 4.4
 * __Tested up to__: 4.7.1
-* __Stable tag__: 7.0.0
+* __Stable tag__: 7.0.2
 * __License__: GPLv3
 
 ## Description

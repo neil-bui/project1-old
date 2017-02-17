@@ -3,13 +3,13 @@
  * Plugin Name: WooCommerce Smart Coupons
  * Plugin URI: http://www.woothemes.com/products/smart-coupons/
  * Description: <strong>WooCommerce Smart Coupons</strong> lets customers buy gift certificates, store credits or coupons easily. They can use purchased credits themselves or gift to someone else.
- * Version: 3.1.9
+ * Version: 3.2
  * Author: StoreApps
  * Author URI: http://www.storeapps.org/
  * Developer: StoreApps
  * Developer URI: http://www.storeapps.org/
  * Requires at least: 3.5
- * Tested up to: 4.6.1
+ * Tested up to: 4.7.2
  * Text Domain: woocommerce-smart-coupons
  * Domain Path: /languages/
  * Copyright (c) 2012-2017 StoreApps All rights reserved.
@@ -561,29 +561,212 @@ if ( is_woocommerce_active() ) {
 
 			/**
 			 * Endpoint HTML content.
+			 * To show available coupons on My Account page
 			 */
 			public function sc_endpoint_content() {
 
-				// to show global coupons on My Account
-				$this->show_smart_coupon_balance();
+				$coupons = $this->sc_get_available_coupons_list( array() );
 
-				// to show user specific coupons on My Account
-				$this->generated_coupon_details_before_my_account();
+				if ( empty( $coupons ) ) return false;
 
+				if( function_exists( 'get_product' ) ){
+					$coupons_applied = $this->global_wc()->cart->get_applied_coupons();
+				} else {
+					$coupons_applied = $_SESSION['coupons'];
+				}
+
+				$available_coupons_heading  = get_option( 'smart_coupon_myaccount_page_text' );
+				$available_coupons_heading = ( !empty( $available_coupons_heading ) ) ? $available_coupons_heading: __( 'Available Store Credit / Coupons', self::$text_domain );
 				?>
+				<h2><?php echo __( stripslashes( $available_coupons_heading ), self::$text_domain ); ?></h2>
 
-				<div class="woocommerce-Message woocommerce-Message--info woocommerce-info" style="display: none;">
+				<div class="woocommerce-Message woocommerce-Message--info woocommerce-info" style="display:none;">
 					<?php echo __( "Sorry, No coupons available for you.", self::$text_domain ); ?>
 				</div>
 
-				<?php
+				<div id='sc_coupons_list'>
+					<h5><?php echo __( 'Store Credit', self::$text_domain ); ?></h5>
+					<div id="all_coupon_container">
+						<?php
 
-				$js = "jQuery( document ).ready(function() {
-						if( !(jQuery('div#coupons_list').length) && !(jQuery('div#generated_coupon_data_container').length)  ) {
-							jQuery('.woocommerce-Message.woocommerce-Message--info.woocommerce-info').appendTo('.woocommerce-MyAccount-content');
-							jQuery('.woocommerce-Message.woocommerce-Message--info.woocommerce-info').show();
+						$total_store_credit = 0;
+						foreach ( $coupons as $code ) {
+							if ( in_array( $code->post_title, $coupons_applied ) ) continue;
+
+							$coupon = new WC_Coupon( $code->post_title );
+
+							if ( ! $coupon->is_valid() ) {
+								continue;
+							}
+
+							if( ( empty( $coupon->amount ) || $coupon->amount == 0 ) && $coupon->free_shipping == "no" && ! empty( $coupon->discount_type ) && $coupon->discount_type != 'free_gift' )
+								continue;
+
+							if ( empty( $coupon->discount_type ) || ( ! empty( $coupon->expiry_date  ) && current_time( 'timestamp' ) > $coupon->expiry_date ) )
+								continue;
+
+							$coupon_post = get_post( $coupon->id );
+
+							$coupon_data = $this->get_coupon_meta_data( $coupon );
+
+							if ( $coupon->discount_type == "smart_coupon" ) {
+								$total_store_credit += $coupon->coupon_amount;
+
+								echo '<div class="coupon-container apply_coupons_credits red medium" name="'.$coupon->code.'" style="cursor: pointer">
+								<div class="coupon-content red dashed small" name="'.$coupon->code.'">
+									<div class="discount-info" >';
+
+								if ( ! empty( $coupon_data['coupon_amount'] ) && $coupon->amount != 0 ) {
+									echo $coupon_data['coupon_amount'] . ' ' . $coupon_data['coupon_type'];
+									if ( $coupon->free_shipping == "yes" ) {
+										echo __( ' &amp; ', self::$text_domain );
+									}
+								}
+
+								if ( $coupon->free_shipping == "yes" ) {
+									echo __( 'Free Shipping', self::$text_domain );
+								}
+								echo '</div>';
+
+								echo '<div class="code">'. $coupon->code .'</div>';
+
+								$show_coupon_description = get_option( 'smart_coupons_show_coupon_description', 'no' );
+								if ( ! empty( $coupon_post->post_excerpt ) && $show_coupon_description == 'yes' ) {
+									echo '<div class="discount-description">' . $coupon_post->post_excerpt . '</div>';
+								}
+
+								if( !empty( $coupon->expiry_date ) ) {
+
+									$expiry_date = $this->get_expiration_format( $coupon->expiry_date );
+
+									echo '<div class="coupon-expire">'. $expiry_date .'</div>';
+
+								} else {
+
+									echo '<div class="coupon-expire">'. __( 'Never Expires', self::$text_domain ) . '</div>';
+
+								}
+
+								echo '</div>
+									</div>';
+							}
 						}
-				});";
+						?>
+					</div>
+					<?php
+						if ( !empty( $total_store_credit ) && $total_store_credit != 0 ) {
+							?>
+							<div style="text-align:right;"><?php echo sprintf(__( 'Total Credit Amount : %s', self::$text_domain ), $total_store_credit); ?></div>
+							<?php
+						}
+					?>
+				<br><hr />
+				</div>
+				<div id='coupons_list'>
+					<h5><?php echo __( 'Discount Coupons', self::$text_domain ); ?></h5>
+					<div id="all_coupon_container">
+						<?php
+
+						foreach ( $coupons as $code ) {
+
+							if ( in_array( $code->post_title, $coupons_applied ) ) continue;
+
+							$coupon = new WC_Coupon( $code->post_title );
+
+							if ( ! $coupon->is_valid() ) {
+								continue;
+							}
+
+							if( ( empty( $coupon->amount ) || $coupon->amount == 0 ) && $coupon->free_shipping == "no" && ! empty( $coupon->discount_type ) && $coupon->discount_type != 'free_gift' )
+								continue;
+
+							if ( empty( $coupon->discount_type ) || ( ! empty( $coupon->expiry_date  ) && current_time( 'timestamp' ) > $coupon->expiry_date ) )
+								continue;
+
+							$coupon_post = get_post( $coupon->id );
+
+							$coupon_data = $this->get_coupon_meta_data( $coupon );
+
+							if ( $coupon->discount_type != "smart_coupon" ) {
+								echo '<div class="coupon-container apply_coupons_credits blue medium" name="'.$coupon->code.'" style="cursor: pointer">
+								<div class="coupon-content blue dashed small" name="'.$coupon->code.'">
+									<div class="discount-info" >';
+
+								if ( ! empty( $coupon_data['coupon_amount'] ) && $coupon->amount != 0 ) {
+									echo $coupon_data['coupon_amount'] . ' ' . $coupon_data['coupon_type'];
+									if ( $coupon->free_shipping == "yes" ) {
+										echo __( ' &amp; ', self::$text_domain );
+									}
+								}
+
+								if ( $coupon->free_shipping == "yes" ) {
+									echo __( 'Free Shipping', self::$text_domain );
+								}
+								echo '</div>';
+
+								echo '<div class="code">'. $coupon->code .'</div>';
+
+								$show_coupon_description = get_option( 'smart_coupons_show_coupon_description', 'no' );
+								if ( ! empty( $coupon_post->post_excerpt ) && $show_coupon_description == 'yes' ) {
+									echo '<div class="discount-description">' . $coupon_post->post_excerpt . '</div>';
+								}
+
+								if( !empty( $coupon->expiry_date ) ) {
+
+									$expiry_date = $this->get_expiration_format( $coupon->expiry_date );
+
+									echo '<div class="coupon-expire">'. $expiry_date .'</div>';
+
+								} else {
+
+									echo '<div class="coupon-expire">'. __( 'Never Expires', self::$text_domain ) . '</div>';
+
+								}
+
+								echo '</div>
+									</div>';
+							}
+						}
+					?>
+				</div>
+				<?php
+				// to show user specific coupons on My Account
+				$this->generated_coupon_details_before_my_account();
+
+				if ( did_action( 'wc_smart_coupons_frontend_styles_and_scripts' ) <= 0 || ! defined( 'DOING_AJAX' ) || DOING_AJAX !== true ) {
+					$this->frontend_styles_and_scripts( array( 'page' => 'myaccount' ) );
+				}
+
+				$js = "var total_store_credit = '" . $total_store_credit ."';
+						if ( total_store_credit == 0 ) {
+							jQuery('#sc_coupons_list').hide();
+						}
+
+						jQuery( document ).ready(function() {
+							if( jQuery('div#all_coupon_container').children().length == 0 ) {
+								jQuery('#coupons_list').hide();
+							}
+						});
+
+						jQuery( document ).ready(function() {
+							if( jQuery('div.woocommerce-MyAccount-content').children().length == 0 ) {
+								jQuery('.woocommerce-MyAccount-content').append(jQuery('.woocommerce-Message.woocommerce-Message--info.woocommerce-info'));
+								jQuery('.woocommerce-Message.woocommerce-Message--info.woocommerce-info').show();
+							}
+						});
+
+						/* to show scroll bar for core coupons */
+						var coupons_list = jQuery('#coupons_list');
+						var coupons_list_height = coupons_list.height();
+
+						if ( coupons_list_height > 400 ) {
+							coupons_list.css('height', '400px');
+							coupons_list.css('overflow-y', 'scroll');
+						} else {
+							coupons_list.css('height', '');
+							coupons_list.css('overflow-y', '');
+						}
+				";
 
 				if ( $this->is_wc_gte_21() ) {
 					wc_enqueue_js( $js );
@@ -735,8 +918,8 @@ if ( is_woocommerce_active() ) {
 
 						var generated_coupon_element = jQuery('#all_generated_coupon');
 						var generated_coupon_container_height = generated_coupon_element.height();
-						if ( generated_coupon_container_height > 250 ) {
-							generated_coupon_element.css('height', '250px');
+						if ( generated_coupon_container_height > 400 ) {
+							generated_coupon_element.css('height', '400px');
 							generated_coupon_element.css('overflow-y', 'scroll');
 						} else {
 							generated_coupon_element.css('height', '');
@@ -967,7 +1150,9 @@ if ( is_woocommerce_active() ) {
 			 * Display generated coupon's details on My Account page
 			 */
 			public function generated_coupon_details_before_my_account() {
-				if ( is_user_logged_in() ) {
+				$show_coupon_received_on_my_account = get_option( 'show_coupon_received_on_my_account', 'no' );
+
+				if ( is_user_logged_in() && $show_coupon_received_on_my_account == 'yes' ) {
 					$user_id = get_current_user_id();
 					$this->get_generated_coupon_data( '', $user_id, true, true );
 				}
@@ -2848,16 +3033,14 @@ if ( is_woocommerce_active() ) {
 			}
 
 			/**
-			 * Function to show available coupons
+			 * Function to get available coupons list
 			 *
-			 * @param string $available_coupons_heading
-			 * @param string $page
 			 */
-			public function show_available_coupons( $available_coupons_heading = '', $page = 'checkout' ) {
+			public function sc_get_available_coupons_list( $coupons = array() ) {
 
 				global $wpdb;
 
-				$global_coupons = $coupons = array();
+				$global_coupons = array();
 
 				if ( get_option( 'woocommerce_smart_coupon_show_my_account' ) == 'no' ) return false;
 				
@@ -2922,6 +3105,20 @@ if ( is_woocommerce_active() ) {
 				}
 
 				$coupons = array_merge( $coupons, $global_coupons );
+
+				return $coupons;
+
+			}
+
+			/**
+			 * Function to show available coupons on Cart & Checkout page
+			 *
+			 * @param string $available_coupons_heading
+			 * @param string $page
+			 */
+			public function show_available_coupons( $available_coupons_heading = '', $page = 'checkout' ) {
+
+				$coupons = $this->sc_get_available_coupons_list( array() );
 
 				if ( empty( $coupons ) ) return false;
 
@@ -3031,8 +3228,8 @@ if ( is_woocommerce_active() ) {
 							}
 
 							var coupon_container_height = jQuery('#all_coupon_container').height();
-							if ( coupon_container_height > 250 ) {
-								jQuery('#all_coupon_container').css('height', '250px');
+							if ( coupon_container_height > 400 ) {
+								jQuery('#all_coupon_container').css('height', '400px');
 								jQuery('#all_coupon_container').css('overflow-y', 'scroll');
 							} else {
 								jQuery('#all_coupon_container').css('height', '');
