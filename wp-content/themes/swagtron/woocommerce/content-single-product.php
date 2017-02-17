@@ -90,6 +90,8 @@ if( $product->product_type == 'variable' ) {
 	 }
 ?>
 
+
+
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<section class="product_detailstop">
 		<div class="row">
@@ -109,11 +111,11 @@ if( $product->product_type == 'variable' ) {
 					<div class="pickmodeltext">Pick Your Model</div>
 					<div class="modeltabsec">
 						<ul>
-							<li <?php echo is_page( 112237 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 112237 ); ?>">SWAGGER</a>
+							<li <?php echo is_page( 52157 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 52157 ); ?>">SWAGWAY X1 </a>
 							</li>
-							<li <?php echo is_page( 112241 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 112241 ); ?>">SWAGBOARD</a>
+							<li <?php echo is_page( 89963 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 89963 ); ?>">SWAGTRON T1</a>
 							</li>
 							<li <?php echo is_page( 89966 ) ? 'class="active"' : ''; ?> >
 								<a href="<?php echo get_permalink( 89966 ); ?>">SWAGTRON T3</a>
@@ -168,7 +170,7 @@ if( $product->product_type == 'variable' ) {
 				 * @hooked woocommerce_upsell_display - 15
 				 * @hooked woocommerce_output_related_products - 20
 				 */
-				//do_action( 'woocommerce_after_single_product_summary' );
+				// do_action( 'woocommerce_after_single_product_summary' );
 			?>
 
 			<meta itemprop="url" content="<?php the_permalink(); ?>" />
@@ -194,45 +196,94 @@ if( $product->product_type == 'variable' ) {
 						</div>
 					</section>
 		*/  ?>
-<?php /*
-			<section class="productdetails_middleproductsec">
-				<h2 class="middle_producttitle"><?php echo get_the_title() ?></h2>
-				<div class="row">
-					<div class="col-lg-6 col-xs-12 col-sm-6 col-md-6 hoverboard_img">
-						<?php if( isset( $variation_index ) ) : ?>
-							<h3><img src="<?php echo $variations[$variation_index]['image_link']; ?>" alt="<?php echo get_the_title() ?>"></h3>
-						<?php else : ?>
-							<h3><img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title() ?>"></h3>
-						<?php endif; ?>
-					</div>
-					<div class="col-lg-6 col-xs-12 col-sm-6 col-md-6">
-						<div class="hoverboard_price">
-							<span class="hoverbord_leftprice">
-								<?php
-									$var_price = isset( $variation_id ) ? $variations[$variation_index]['display_price'] : $product->get_price();
-									$parts = explode( '.', $var_price );
-									$price_part = empty( $parts[0] ) ? '00' : $parts[0];
-									$fraction_part = empty( $parts[1] ) ? '00' : $parts[1];
-									echo '<sup>' . get_woocommerce_currency_symbol() . '</sup>' . $price_part . '.<sup>' . $fraction_part . '</sup>';
-								?>
-							</span>
-							<span class="freeshipping">(free shipping)</span>
-						</div>
-						<div class="simple_addtocartbtn">
-							<?php
-								// Building url
-								$add_to_cart_url = isset( $variation_id ) ? esc_url( add_query_arg( array( 'add-to-cart' => get_the_ID(), 'variation_id' => $variation_id, 'attribute_pa_feed-color' => $var_color, 'quantity' => 1 ), $cart_url ) ) : esc_url( add_query_arg( array( 'add-to-cart' => get_the_ID() ), $cart_url ) );
-							?>
-							<a href="<?php echo $add_to_cart_url; ?>">ADD TO CART</a>
-						</div>
-						<div class="hoverboard_description">
-							<?php the_excerpt(); ?>
-						</div>
-					</div>
-				</div>
+
+			
+<!-- VIDEO START -->
+<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
+
+	<?php
+	global $vid_title;
+	global $vid_description;
+	global $vid_youtube_id;
+	global $vid_call_to_action;
+	global $vid_call_to_action_url;
+
+	if ( !empty( $vid_youtube_id ) ) {
+		?>
+	<div style="border-bottom: 1px solid #e8e8e8; margin-bottom: 9px"><img src="<?php echo get_template_directory_uri(); ?>/images/video.png" width="70" height="70" >
+		<h2 style="float: right; padding:0px 10px 0px 0px">
+			<?php echo $vid_title ?>
+		</h2>
+	</div>
+	<div class="row">
+		<div class="video_box">
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script>
+				var tag = document.createElement( "script" );
+				tag.src = "https://www.youtube.com/iframe_api";
+				var firstScriptTag = document.getElementsByTagName( "script" )[ 0 ];
+				firstScriptTag.parentNode.insertBefore( tag, firstScriptTag );
+
+				var player;
+
+				function onYouTubeIframeAPIReady() {
+					player = new YT.Player( "ytplayer", {
+						height: "315",
+						width: "560",
+						videoId: "<?php echo $vid_youtube_id ?>",
+						events: {
+							"onReady": onPlayerReady
+						}
+					} )
+				}
+
+				function onPlayerReady( event ) {
+					event.target.playVideo();
+					event.target.setPlaybackQuality( "hd720" );
+					event.target.setVolume( 0 );
+				}
+
+
+				$( window ).scroll( function () {
+					$( "iframe" ).each( function () {
+						if ( $( window ).scrollTop() > $( this ).offset().top - 225 ) {
+							$( this ).css( "opacity", 1 );
+							player.playVideo();
+						} else {
+							$( this ).css( "opacity", 1 );
+							player.stopVideo();
+						}
+					} );
+				} );
+			</script>
+
+			<div class="video-container">
+				<div id="ytplayer"></div>
+
+			</div>
+		</div>
+		<div class="video_description">
+
+			<div style="line-height: 25px; font-size: 14px; padding: 20px; margin: 0px ">
+				<?php echo $vid_description ?><br><br>
+			<a href="<?php echo $vid_call_to_action_url ?>"><button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px"><?php echo $vid_call_to_action ?></button></a>
+			</div></div>
+
+		<?php
+		} else {
+			echo "Video to coming soon!";
+		}
+
+		?>
+</section>
+<!-- VIDEO END -->
+						
+				<section class="productdetails_middleproductsec" >
+
+
 
 				<!-- Comments -->
-				<?php
+				<?php 
 					// Getting one 5 star comment
 					$args = array(
 							'orderby' 		=> 'date',
@@ -272,10 +323,10 @@ if( $product->product_type == 'variable' ) {
 						<div class="col-lg-6 col-sm-6 col-md-6 hidden-xs">
 							<div class="testimonial_sec">
 
-								<?php if( isset( $comments[0] ) ) : ?>
-									<div class="testimonial_text"><?php echo ucfirst( wp_trim_words( $comments[0]->comment_content, 20 ) ); ?></div>
-									<div class="testimonial_name"> SWAGTRON Customer: <?php echo $comments[0]->comment_author; ?> <br>
-										<span class="date"><?php echo mysql2date( 'm.d.Y', $comments[0]->comment_date ); ?></span>
+								<?php if( isset( $five_star_comment[0] ) ) : ?>
+									<div class="testimonial_text">"<?php echo ucfirst( wp_trim_words( $five_star_comment[0]->comment_content, 20 ) ); ?>"</div>
+									<div class="testimonial_name"> SWAGTRON Customer: <?php echo $five_star_comment[0]->comment_author; ?> <br>
+										<span class="date"><?php echo mysql2date( 'm.d.Y', $five_star_comment[0]->comment_date ); ?></span>
 									</div>
 								<?php endif; ?>
 
@@ -329,7 +380,7 @@ if( $product->product_type == 'variable' ) {
 					</div>
 				<?php endif; ?>
 			</section>
-*/ ?>
+
 			<?php //echo '<pre>'; print_r( $comments_count ); echo '</pre>'; ?>
 
 			<!-- Tabs -->
@@ -485,4 +536,6 @@ if( $product->product_type == 'variable' ) {
 
 </div><!-- #product-<?php the_ID(); ?> -->
 
-<?php do_action( 'woocommerce_after_single_product' ); ?>
+	<?php do_action( 'woocommerce_after_single_product' ); ?>
+
+
