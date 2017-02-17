@@ -91,6 +91,9 @@ wp-content/*
 !wp-content/themes/
 wp-content/plugins/affiliates-manager/logs/wpam-log.txt
 
+#ignore login-recaptcha plugin
+login-recaptcha
+
 # ignore these plugins
 wp-content/plugins/hello.php
 
