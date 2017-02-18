@@ -199,7 +199,7 @@ if( $product->product_type == 'variable' ) {
 
 			
 <!-- VIDEO START -->
-<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
+
 
 	<?php
 	global $vid_title;
@@ -210,6 +210,8 @@ if( $product->product_type == 'variable' ) {
 
 	if ( !empty( $vid_youtube_id ) ) {
 		?>
+		
+		<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
 	<div style="border-bottom: 1px solid #e8e8e8; margin-bottom: 9px"><img src="<?php echo get_template_directory_uri(); ?>/images/video.png" width="70" height="70" >
 		<h2 style="float: right; padding:0px 10px 0px 0px">
 			<?php echo $vid_title ?>
@@ -268,14 +270,13 @@ if( $product->product_type == 'variable' ) {
 				<?php echo $vid_description ?><br><br>
 			<a href="<?php echo $vid_call_to_action_url ?>"><button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px"><?php echo $vid_call_to_action ?></button></a>
 			</div></div>
-
+</section>
 		<?php
-		} else {
-			echo "Video to coming soon!";
+	
 		}
 
 		?>
-</section>
+
 <!-- VIDEO END -->
 						
 				<section class="productdetails_middleproductsec" >
