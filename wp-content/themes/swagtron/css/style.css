@@ -314,17 +314,24 @@ img{
 	color:#363636;
 	text-decoration:none;
 }
+
+/*UPDATED 02182017 removed hover
 .navigation ul li a:hover {
 	color:#000;
-}
+}*/
+
 .navigation ul li:last-child{
 	margin-right: 0;
 }
+
+
+/*UPDATED 02182017 added left:0*/
 .navigation ul li ul {
   padding: 30px 0 0;
   position: absolute;
 	right:0;
-  width: 200px;
+	left:0;
+	width: 200px;
   display: none;
   opacity: 0;
   visibility: hidden;
@@ -335,9 +342,11 @@ img{
   -transition: opacity 0.2s;
     /*border: 1px solid #e8e8e8;*/
 }
+
+/*UPDATED 02182017 changed display:block - display:none*/
 .navigation ul li ul li {
   font-size:15px;
-  display: block;
+  display: none;
   width:100%;
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -346,11 +355,14 @@ img{
   padding:0;
   text-align:left;
 }
+
 .navigation ul li ul li a{
   display: block;
   width:100%;
   padding:12px 0 12px 20px;
 }
+
+
 .navigation ul li ul li:hover{ background: #363636;}
 .navigation ul li ul li:hover a{ color:#fff;}
 .navigation ul li:hover ul {
@@ -2683,6 +2695,11 @@ border-radius: 10px;
 
 /* UPDATED 02152017*/
 
+.resp-tabs-list li {
+	font-size: 18px !important;
+	padding: 8px 40px !important;
+}
+
 .grow {
 	transition: all .2s ease-in-out;
 }
@@ -2724,7 +2741,7 @@ border-radius: 10px;
 	float: left;
 	position: relative;
 	width: 25%;
-	padding-bottom: 20%;
+	padding-bottom: 25%;
 }
 .boxInner {
 	position: absolute;
@@ -2766,29 +2783,6 @@ border-radius: 10px;
 }
 
 
-@media only screen and (max-width: 1199px) and (min-width: 3000px) {
-.resp-tabs-list li {
-	font-size: 18px !important;
-	padding: 8px 40px !important;
-}
-.video_box {
-	width: 75%;
-	float: right
-}
-.video_description {
-	width: 25%;
-	float: left
-}
-.box {
-	width: 25%;
-	padding-bottom: 25%;
-}
-.navigation ul li {
-	font-size: 17px;
-	margin-right: 19px;
-}
-}
-
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
 .resp-tabs-list li {
 	font-size: 18px !important;
@@ -2809,10 +2803,8 @@ border-radius: 10px;
 .productdetails_videosec h2 {
 	font-size: 22px
 }
-.navigation ul li {
-	font-size: 15px;
-	margin-right: 12px;
-}
+
+
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
@@ -2842,7 +2834,6 @@ border-radius: 10px;
 .productdetails_middleproductsec img {
 	width: 50px
 }
-
 
 }
 
@@ -2877,8 +2868,6 @@ border-radius: 10px;
 }
 
 }
-
-
 
 @media only screen and (max-width: 650px) and (min-width: 768px) {
 .box {
