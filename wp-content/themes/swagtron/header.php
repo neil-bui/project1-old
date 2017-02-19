@@ -194,7 +194,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a>
             </li>
                         <li><a href="<?php echo get_term_link(76); ?>">CLEARANCE</a>
-              <ul  style="left:-60px">
+              <ul  style="left:-60px ">
                 <li><a href="<?php echo get_term_link(49); ?>">Clothing & Bags</a></li>
                 <li><a href="https://swagtron.com/product/1-year-accidental-damage-warranty/">Accidental Warranty</a></li>
                 <li><a href="<?php echo get_term_link(51); ?>">CLEARANCE ITEMS</a></li>
