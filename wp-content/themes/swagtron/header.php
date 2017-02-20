@@ -129,10 +129,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="topright_menu">
                           <ul>
-                            <li><a href="https://swagtron.com/faq-page/">FAQ</a></li>
-                            <li><a href="https://swagtron.com/hoverboard-images/">Galleries</a></li>
-                            <li><a href="https://swagtron.com/media/">Media &amp; Press</a></li>
-                            <li><a href="https://swagtron.com/contact/">Contact Us</a></li>
+                            <li><a href="/faq-page/">FAQ</a></li>
+                            <li><a href="/hoverboard-images/">Galleries</a></li>
+                            <li><a href="/media/">Media &amp; Press</a></li>
+                            <li><a href="/contact/">Contact Us</a></li>
                           </ul>
                         </div>
           </div>
@@ -162,25 +162,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</li>
             <li><a href="<?php echo get_term_link(53); ?>">Hoverboards</a>
               <ul>
-                <li><a href="https://swagtron.com/product/swagtron-t5-hoverboard/">SwagTron T5</a></li>
+                <li><a href="/product/swagtron-t5-hoverboard/">SwagTron T5</a></li>
                 <li><a href="<?php echo get_term_link(54); ?>">SwagTron T3</a></li>
                 <li><a href="<?php echo get_term_link(47); ?>">SwagTron T1</a></li>
                 <li><a href="<?php echo get_term_link(48); ?>">Swagway X1</a></li>
-                <li><a href="https://swagtron.com/product/swagway-x2-hoverboard/">Swagway X2</a></li>
+                <li><a href="/product/swagway-x2-hoverboard/">Swagway X2</a></li>
               </ul>
             </li>
             
             <li><a href="<?php echo get_term_link(60); ?>">Electric Scooters</a>
               <ul>
-                <li><a href="https://swagtron.com/product/swagger-carbon-fiber-electric-scooter">Swagger Scooter</a></li>
-                <li><a href="https://swagtron.com/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a></li>
+                <li><a href="/product/swagger-carbon-fiber-electric-scooter">Swagger Scooter</a></li>
+                <li><a href="/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a></li>
               </ul>
             </li>
             
            <li><a href="<?php echo get_term_link(59); ?>">Electric Skateboard</a>
               <ul>
-                <li><a href="https://swagtron.com/product/swagboard-ng-1-nextgen-electric-skateboard/">Swagboard</a></li>
-                <li><a href="https://swagtron.com/product/swagtron-voyager-professional-42-electric-longboard-with-remote-control/">Voyager Longboard</a></li>
+                <li><a href="/product/swagboard-ng-1-nextgen-electric-skateboard/">Swagboard</a></li>
+                <li><a href="/product/swagtron-voyager-professional-42-electric-longboard-with-remote-control/">Voyager Longboard</a></li>
               </ul>
             </li>
             <li class="homelogo" style="margin-right:20px; padding:0">
@@ -196,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="<?php echo get_term_link(76); ?>">CLEARANCE</a>
               <ul  style="left:-60px ">
                 <li><a href="<?php echo get_term_link(49); ?>">Clothing & Bags</a></li>
-                <li><a href="https://swagtron.com/product/1-year-accidental-damage-warranty/">Accidental Warranty</a></li>
+                <li><a href="/product/1-year-accidental-damage-warranty/">Accidental Warranty</a></li>
                 <li><a href="<?php echo get_term_link(51); ?>">CLEARANCE ITEMS</a></li>
               </ul>
             </li>
