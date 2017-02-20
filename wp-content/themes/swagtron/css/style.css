@@ -2782,6 +2782,14 @@ border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
 
+.navigation ul li {
+	font-size: 17px;
+	margin-right: 22px;
+}
+
+.navigation ul li ul li {
+	display:block !important;
+}
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
 .resp-tabs-list li {
@@ -2803,8 +2811,11 @@ border-radius: 10px;
 .productdetails_videosec h2 {
 	font-size: 22px
 }
-
-
+	
+	.navigation ul li {
+	font-size: 15px !important;
+	margin-right: 12px !important;
+}
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
@@ -2833,6 +2844,83 @@ border-radius: 10px;
 }
 .productdetails_middleproductsec img {
 	width: 50px
+}
+	
+	.navigation ul li ul {
+	left: -50px;
+	right: 0
+}
+#endNav {
+	left: -90px}
+
+.navigation {
+	background: rgba(42,42,42,0.99);
+	height: 100%;
+	left: -270px;
+	position: fixed;
+	top: 0;
+	width: 270px;
+}
+.mobile_carticon {
+	display: block !important;
+	margin: 5px 0 0;
+}
+.mobile_logo {
+	display: block!important;
+}
+.hamberger_menu {
+	display: block;
+	margin: 5px 0 0;
+}
+.top_header {
+	display: none;
+}
+.mobile_logo img {
+	width: 230px;
+}
+.menu_header {
+	border-bottom: none;
+	padding: 12px 0 0;
+}
+.header {
+	border-bottom: 2px solid #f0f0f0;
+	height: 60px;
+}
+.navigation ul {
+	margin: 0px 0 0;
+}
+.navigation ul li {
+	border-bottom: 1px solid #6c6c6c;
+	font-size: 21px;
+	margin-right: 0;
+	padding: 12px 0;
+	width: 100%;
+	text-align: left;
+}
+.navigation ul li a {
+	color: #fff;
+	padding-left: 20px;
+}
+.mobilelogo_collaps img {
+	width: 195px!important;
+}
+.mobilelogo_collaps {
+	display: block !important;
+	padding: 14px 0 !important;
+	text-align: center !important;
+	background: #facf23;
+}
+.homelogo {
+	display: none !important;
+}
+.navigation ul li ul {
+	display: none !important;
+	margin: 0;
+	opacity: 1;
+	padding: 0;
+	position: relative;
+	visibility: visible;
+	width: 200px;
 }
 
 }
@@ -2866,7 +2954,28 @@ border-radius: 10px;
 .productdetails_videosec h2 {
 	font-size: 18px
 }
+	
+	.navigation ul li ul {
+	display: none!important;
+	margin: 0;
+	opacity: 1;
+	padding: 0;
+	position: relative;
+	visibility: visible;
+	width: 200px;
+}
+}
 
+@media only screen and (min-width: 1200px) and (max-width: 1240px) {
+.navigation ul li{
+	margin-right: 18px!important;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1290px) {
+.navigation ul li{
+	margin-right: 17px!important;
+}
 }
 
 @media only screen and (max-width: 650px) and (min-width: 768px) {
@@ -2891,5 +3000,8 @@ border-radius: 10px;
 .box {
 	padding-bottom: 65%;}
 }
+
+
+
 
 
