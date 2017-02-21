@@ -111,7 +111,33 @@ get_header(); ?>
 				</div>
 			</section>
 
+				<!-- Category: Electric Bikes -->
+		<?php elseif( is_product_category( 'electric-bike' ) ) : ?>
+
+			<section class="category_banner bluebgbc">
+				<div class="body_container">
+					<div class="row">
+						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6" style="text-align:center;">
+							<h3>
+								<img src="<?php echo get_template_directory_uri(); ?>/images/ebike.png" align="productimage">
+							</h3>
+						</div>
+						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
+							<div class="cat_heading1"><span style="background:#3599f1">GET THERE IN STYLE</span></div>
+							<h1 class="cat_heading2">Electric Skateboard</h1>
+							<div class="cat_pricenow"><span style="background:#3599f1">NOW $</span></div>
+							<div class="cat_deascrption">Whether you're an urban commuter, a student on campus, running errands, or just cruising around, you can now enjoy SWAGTRON’s all new electric bike.</div>
+							<div class="cat_buynowbtn">
+								<a href="<?php echo esc_url( add_query_arg( array( 'add-to-cart' => 85670, 'quantity' => 1 ), $cart_url ) ); ?>">BUY NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		<?php endif; ?>
+
+
 
     <section class="category_product">
       <div class="container">
@@ -152,46 +178,14 @@ get_header(); ?>
 
 					<?php endif; ?>
 
+					<?php include (TEMPLATEPATH . '/templates/lineup.php'); ?>
+
 			</div>	<!-- End of .container -->
     </section>
 
-    <section class="more_swagtron">
-      <div class="container">
-        <div class="morefrom_swagtron">More from swagtron</div>
-        <div class="row">
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 54 ); ?>">
-							<div class="orangediv">
-								<div class="lineuptext">HOVERBOARDS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image1.png" alt="HOVERBOARDS">
-								</h3>
-							</div>
-						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 59 ); ?>">
-							<div class="blackdiv">
-								<div class="lineuptext">ELECTRIC SKATEBOARDS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image2.png" alt="ELECTRIC SKATEBOARDS">
-								 </h3>
-							</div>
-						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 60 ); ?>">
-							<div class="yellowdiv">
-								<div class="lineuptext">ELECTRIC SCOOTERS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image3.png" alt="ELECTRIC SCOOTERS">
-								</h3>
-							</div>
-						</a>
-					</div>
-        </div>
-      </div>
-    </section>
+
+
+
 
 	</div>
 

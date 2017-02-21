@@ -589,3 +589,5 @@ function onPlayerReady(event) {
 //add our shortcode movie
 add_shortcode('product_video_anywhere', 'product_video_anywhere');
 
+
+

@@ -130,8 +130,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="topright_menu">
                           <ul>
                             <li><a href="/faq-page/">FAQ</a></li>
-                            <li><a href="/hoverboard-images/">Galleries</a></li>
-                            <li><a href="/media/">Media &amp; Press</a></li>
+                            <li><a href="/news/">News</a></li>
+                            <li><a href="/media/">Press</a></li>
                             <li><a href="/contact/">Contact Us</a></li>
                           </ul>
                         </div>
@@ -188,7 +188,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo">
 							</a>
 						</li>
-            <li><a href="<?php echo get_term_link(59); ?>">Electric Bike</a>
+            <li><a href="<?php echo get_term_link(95); ?>">Electric Bike</a>
             </li>
             
             <li><a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a>

@@ -64,17 +64,22 @@ if( $product->product_type == 'variable' ) {
 }
 ?>
 
-<div class="hidden">
-	<p>
-		<?php //echo 'selected: ' . $selected_attr; ?>
-	</p>
-	<pre>
-		<?php //print_r( $product ); ?>
-	</pre>
-	<pre>
-		<?php //print_r( $variations ); ?>
-	</pre>
-</div>
+<?php
+	// NOTE: VERY HACKY 
+	// tabs call up top to pass shortcode vars
+	$tabs = apply_filters( 'woocommerce_product_tabs', array() ); 
+	// grab description tab
+	$tabvar = $tabs['description']['callback'];
+	// output buffer to ignore echo
+	ob_start();
+	// put description in var to initialize shortcode in description
+if(!empty($tabvar) && function_exists($tabvar)) :
+		$productDescriptionVar = $tabvar();
+	endif;
+	// clear buffer
+	ob_end_clean();
+
+?>
 
 <?php
 	/**

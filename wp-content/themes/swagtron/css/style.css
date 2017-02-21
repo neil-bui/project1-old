@@ -2677,6 +2677,11 @@ border-radius: 10px;
 .blackbgbc{
 	background: url(../images/black_bg.jpg) no-repeat left center #3d3d3d;
 }
+
+.bluebgbc{
+	background: url(../images/blue_bg.jpg) no-repeat left center #3599f1;
+	padding: 40px 0;
+}
 .topgaping{
 	margin: 70px 0 0;
 }
@@ -2964,6 +2969,9 @@ border-radius: 10px;
 	visibility: visible;
 	width: 200px;
 }
+
+.category_banner {
+    padding: 60px 0;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1240px) {
@@ -3000,6 +3008,8 @@ border-radius: 10px;
 .box {
 	padding-bottom: 65%;}
 }
+
+
 
 
 

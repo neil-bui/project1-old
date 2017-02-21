@@ -3,7 +3,7 @@ $classes = get_body_class();
 ?>
 
   <!-- Start Footer Wrapper -->
-	<div class="footer_sec">
+	<div class="footer_sec" style="padding-bottom: 20px">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-sm-4 hidden-xs">
@@ -62,19 +62,6 @@ $classes = get_body_class();
             <div class="footer_content">*Swagway and Swagway LLC are not authorized by, endorsed by, affiliated with or otherwise approved by Segway Inc.</div>
 					</div>
 				</div>
-			</div>
-			<div class="footer_menu">
-				<ul>
-          <li><a href="<?php echo site_url(); ?>">Home</a></li>
-          <li><a href="<?php echo get_permalink(9); ?>">Buy Now</a></li>
-          <li><a href="<?php echo get_permalink(89929); ?>">FAQ</a></li>
-          <li><a href="<?php echo get_permalink(54217); ?>">Galleries</a></li>
-          <li><a href="<?php echo get_permalink(54217); ?>">Images</a></li>
-          <li><a href="<?php echo get_permalink(105); ?>">Video Playlists</a></li>
-          <li><a href="<?php echo get_permalink(89933); ?>">Media & Press</a></li>
-          <li><a href="<?php echo get_permalink(89937); ?>">Contact Us</a></li>
-          <li><a href="<?php echo get_permalink(89927); ?>">Hoverboard News</a></li>
-				</ul>
 			</div>
 		</div>
 	</div>
