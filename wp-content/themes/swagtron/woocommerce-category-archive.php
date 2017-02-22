@@ -123,7 +123,7 @@ get_header(); ?>
 							</h3>
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
-							<div class="cat_heading1"><span style="background:#3599f1">GET THERE IN STYLE</span></div>
+							<div class="cat_heading1 topgaping" ><span style="background:#3599f1">GET THERE IN STYLE</span></div>
 							<h1 class="cat_heading2">Electric Skateboard</h1>
 							<div class="cat_pricenow"><span style="background:#3599f1">NOW $</span></div>
 							<div class="cat_deascrption">Whether you're an urban commuter, a student on campus, running errands, or just cruising around, you can now enjoy SWAGTRON’s all new electric bike.</div>
