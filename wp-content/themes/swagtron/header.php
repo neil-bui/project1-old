@@ -29,6 +29,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon-16x16.png">
 <?php wp_head(); ?>
 
 <!--Start of Zendesk Chat Script-->
@@ -40,16 +41,6 @@ $.src="https://v2.zopim.com/?3G8F6VmqgFim0eNWkOi3bbKkYaJvZnv5";z.t=+new Date;$.
 type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 </script>
 <!--End of Zendesk Chat Script-->
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WCX7HZ');</script>
-<!-- End Google Tag Manager -->
-
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon-16x16.png">
 <script type="text/javascript">
 adroll_adv_id = "JPT2NB4WORCQFGEDIZZQG4";
 adroll_pix_id = "NZFAOQU73BC2PKUQX4TOTC";
@@ -79,12 +70,16 @@ window.onload = function(){
     if(oldonload){oldonload()}
 }();
 </script>
-
-
 </head>
 
 <body <?php body_class(); ?> >
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WCX7HZ');</script>
+<!-- End Google Tag Manager -->
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCX7HZ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -128,13 +123,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </ul>
             </div>
             <div class="topright_menu">
-                          <ul>
-                            <li><a href="/faq-page/">FAQ</a></li>
-                            <li><a href="/news/">News</a></li>
-                            <li><a href="/media/">Press</a></li>
-                            <li><a href="/contact/">Contact Us</a></li>
-                          </ul>
-                        </div>
+              <ul>
+                <li><a href="/faq-page/">FAQ</a></li>
+                <li><a href="/news/">News</a></li>
+                <li><a href="/media/">Press</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -173,11 +168,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="<?php echo get_term_link(60); ?>">Electric Scooters</a>
               <ul>
                 <li><a href="/product/swagger-carbon-fiber-electric-scooter">Swagger Scooter</a></li>
-                <li><a href="/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a></li>
               </ul>
             </li>
             
-           <li><a href="<?php echo get_term_link(59); ?>">Electric Skateboard</a>
+           <li><a href="<?php echo get_term_link(59); ?>">Electric Skateboards</a>
               <ul>
                 <li><a href="/product/swagboard-ng-1-nextgen-electric-skateboard/">Swagboard</a></li>
                 <li><a href="/product/swagtron-voyager-professional-42-electric-longboard-with-remote-control/">Voyager Longboard</a></li>
@@ -188,19 +182,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo">
 							</a>
 						</li>
-            <li><a href="<?php echo get_term_link(95); ?>">Electric Bike</a>
-            </li>
-            
-            <li><a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a>
-                          <ul >
-                <li><a href="<?php echo get_term_link(49); ?>">Clothing & Bags</a></li>
-                <li><a href="/product/1-year-accidental-damage-warranty/">Accidental Warranty</a></li>
+            <li>
+              <a href="<?php echo get_term_link(95); ?>">Electric Bikes</a>
+              <ul>
+                <li>
+                  <a href="/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a>
+                </li>
               </ul>
+            </li> 
+            <li>
+              <a href="<?php echo get_term_link(52); ?>">Parts & Accessories</a>
+                <ul>
+                  <li>
+                    <a href="<?php echo get_term_link(49); ?>">Clothing & Bags</a>
+                  </li>
+                  <li>
+                    <a href="/product/1-year-accidental-damage-warranty/">Accidental Warranty</a>
+                  </li>
+                </ul>
 
-                       </li>
-                        <li><a href="<?php echo get_term_link(51); ?>">CLEARANCE</a>
             </li>
-
+            <li>
+              <a href="<?php echo get_term_link(51); ?>">CLEARANCE</a>
+            </li>
           </ul>
         </div>
       </div>
