@@ -70,6 +70,21 @@ window.onload = function(){
     if(oldonload){oldonload()}
 }();
 </script>
+<style>
+  
+  /* TEMP HOMEPAGE SOLUTION FOR IMAGES ON HERO */
+
+body.home div.iconic-woothumbs-images__slide  {
+  display: none;
+}
+body.home div.iconic-woothumbs-images__slide--active {
+  display: block;
+}
+body.home div.iconic-woothumbs-thumbnails {
+  display: none;
+}
+
+</style>
 </head>
 
 <body <?php body_class(); ?> >
