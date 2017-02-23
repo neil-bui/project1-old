@@ -173,7 +173,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="<?php echo get_term_link(60); ?>">Electric Scooters</a>
               <ul>
                 <li><a href="/product/swagger-carbon-fiber-electric-scooter">Swagger Scooter</a></li>
-                <li><a href="/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a></li>
               </ul>
             </li>
             

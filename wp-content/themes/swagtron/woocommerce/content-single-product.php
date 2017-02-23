@@ -284,7 +284,7 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 
 <!-- VIDEO END -->
 						
-				<section class="productdetails_middleproductsec" >
+				
 
 
 
@@ -325,6 +325,8 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 					//echo '<pre>'; print_r( $comments ); echo '</pre>';
 				?>
 				<?php if( count( $comments ) || count( $five_star_comment ) ) : ?>
+					<section class="productdetails_middleproductsec" >
+
 					<div class="row">
 						<div class="col-lg-6 col-sm-6 col-md-6 hidden-xs">
 							<div class="testimonial_sec">
@@ -354,10 +356,11 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 										<?php echo sprintf( _n( '(%s) Review', '(%s) Reviews', $comments_count->approved, 'swagtron' ), $comments_count->approved); ?>
 									</div>
 								</div>
+								<!--
 								<div class="coustomerreview_fullrow">
 									<div class="coustomerreview_fullrow_text"><?php echo ucfirst( wp_trim_words( $five_star_comment[0]->comment_content, 15 ) ); ?></div>
 									<div class="coustomerreview_fullrow_name">SWAGTRON Customer: <?php echo $five_star_comment[0]->comment_author; ?> <span class="date"><?php echo mysql2date( 'm.d.Y', $five_star_comment[0]->comment_date ); ?></span></div>
-								</div>
+								</div>-->
 
 							<?php endif; ?>
 
@@ -383,9 +386,9 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 								<a id="showAllComments" style="cursor:pointer">View All Reviews (<?php echo $comments_count->approved; ?>)</a>
 							</div>
 						</div>
-					</div>
+					</div></section>
 				<?php endif; ?>
-			</section>
+			
 
 			<?php //echo '<pre>'; print_r( $comments_count ); echo '</pre>'; ?>
 
