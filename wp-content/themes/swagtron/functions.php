@@ -580,11 +580,15 @@ function onPlayerReady(event) {
 			<div class="hoverboard_description" style="line-height: 25px; font-size: 14px; padding: 20px; margin: 0px ">
 				' .$vidany_description. '
 		   
-		<a href="' .$vidany_call_to_action_link. '">   <button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px">' .$vidany_call_to_action. '</button></a>
+		
 		    
 		      </div>
 	    </div></section>';
     return $movie_details;
+
+    /* temp hide cta button 
+    <a href="' .$vidany_call_to_action_link. '">   <button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px">' .$vidany_call_to_action. '</button></a>
+    */
 }
 //add our shortcode movie
 add_shortcode('product_video_anywhere', 'product_video_anywhere');
