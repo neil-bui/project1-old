@@ -109,11 +109,11 @@ if( $product->product_type == 'variable' ) {
 					<div class="pickmodeltext">Pick Your Model</div>
 					<div class="modeltabsec">
 						<ul>
-							<li <?php echo is_page( 112237 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 112237 ); ?>">SWAGGER</a>
+							<li <?php echo is_page( 89969 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 89969 ); ?>">SWAGWAY X1</a>
 							</li>
-							<li <?php echo is_page( 112241 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 112241 ); ?>">SWAGBOARD</a>
+							<li <?php echo is_page( 89963 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 89963 ); ?>">SWAGTRON T1</a>
 							</li>
 							<li <?php echo is_page( 89966 ) ? 'class="active"' : ''; ?> >
 								<a href="<?php echo get_permalink( 89966 ); ?>">SWAGTRON T3</a>
