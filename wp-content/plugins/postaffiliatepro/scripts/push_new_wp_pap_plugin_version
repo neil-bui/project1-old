@@ -1,0 +1,169 @@
+#!/bin/php
+<?php
+/**
+ * This script will push new version to WOrdpress PAP plugin:
+ * plugin URL: https://wordpress.org/plugins/postaffiliatepro/
+ * plugin SVN repo: http://plugins.svn.wordpress.org/postaffiliatepro/
+ * login credentials are in sevices.kdb
+ */
+
+/**
+ * START: basic configuration
+ */
+$svnRepositoryPath = '/home/release/PostAffiliatePro/svn/';
+$svnRepositoryLocalDirName = 'wp_pap';
+$svnRepositoryUrl = 'http://plugins.svn.wordpress.org/postaffiliatepro/';
+$gitRepositoryLocalPath = '/home/release/PostAffiliatePro/git/PostAffiliatePro/';
+$gitRepositoryPluginPath = 'PostAffiliatePro/wordpress/postaffiliatepro'; // this is path inside $gitRepositoryLocalPath
+$gitBranchName = 'develop';
+/**
+ * END: basic configuration
+ */
+
+/**
+ * START: common ini settings
+ */
+ini_set ( 'date.timezone', 'America/Los_Angeles' );
+/**
+ * END: common ini settings
+ */
+
+/**
+ * START: common functions
+ */
+function printUsage() {
+	echo "Usage: push_new_version.php VERSION [GIT_BRANCH]\n";
+	echo "Example: push_new_version.php 1.2.27\n";
+	echo "Example 2: push_new_version 1.2.27 master\n";
+	echo "			 use this when you want to specify which branch use as source\n"; 
+	echo "Please note: wp plugin use only 3 numbers versioning system XX.YY.ZZ\n";
+	echo "Before push you need to update version number in several files: \n";
+	echo "readme.txt AND postaffiliatepro.php\n";
+}
+function logMsg($message) {
+	echo sprintf ( "%s | %s\n", strftime ( '%F %T' ), $message );
+}
+function checkVersionNumber($version) {
+	$parts = explode ( '.', trim ( $version ) );
+	if (count ( $parts ) != 3) {
+		return false;
+	}
+	foreach ( $parts as $part ) {
+		if (! is_numeric ( $part )) {
+			return false;
+		}
+	}
+	if ($parts [0] == 0 || $parts [0] === '0') {
+		return false;
+	}
+	return true;
+}
+function checkVersionInFileOk($version, $fileName) {
+	if (! is_file ( $fileName )) {
+		return false;
+	}
+	$content = file_get_contents ( $fileName );
+	if (strpos ( $content, $version ) === false) {
+		return false;
+	}
+	return true;
+}
+function runCommand($cmd, $failOnError = true) {
+	logMsg('Running command: ' . $cmd);
+	$result = system($cmd);
+	if ($result === false && $failOnError) {
+		logMsg('Command failed');
+		return false;
+	}
+	if (!$failOnError && $result === false) {
+		logMsg('Command failed but we continue...');
+	}
+	return true;
+}
+/**
+ * END: common functions
+ */
+
+$versionCheckFiles = array (
+		'readme.txt, postaffiliatepro.com' 
+);
+
+if (count ( $argv ) < 2 || ! isset ( $argv [1] )) {
+	echo "wrong syntax!\n";
+	printUsage ();
+	die ();
+}
+
+if (isset ( $argv [2] )) {
+	$gitBranchName = $argv [2]; 
+}
+
+if (! checkVersionNumber ( $argv [1] )) {
+	echo "wrong version number!\n";
+	printUsage ();
+	die ();
+}
+
+logMsg ( 'Params check OK' );
+
+if (! is_dir ( $svnRepositoryPath )) {
+	logMsg ( 'SVN dir does not exists! Creating one...' );
+	$cmd = sprintf ( 'mkdir -p %s', escapeshellarg ( $svnRepositoryPath ) );	
+	if (! runCommand($cmd)) {
+		logMsg ( 'Directory ' . $svnRepositoryPath . ' creation field!' );
+		die ();
+	}
+	logMsg ( 'Directory ' . $svnRepositoryPath . ' created OK' );
+}
+
+logMsg ( 'Clearing out WP repository' );
+$cmd = sprintf ( 'rm -rf %s', $svnRepositoryPath . $svnRepositoryLocalDirName );
+runCommand($cmd, false);
+
+logMsg ( 'Checking out WP repository' );
+$cmd = sprintf ( 'svn co %s %s', escapeshellarg ( $svnRepositoryUrl ), escapeshellarg ( $svnRepositoryPath . $svnRepositoryLocalDirName ) );
+if (! runCommand($cmd)) {
+	logMsg ( 'SVN checkout failed' );
+	die ();
+}
+logMsg ( 'Checkout complete! Now checking out git repo...' );
+
+$cmd = sprintf ( 'cd %s;  git fetch; rm -rf %s; git fetch -q; git checkout -q -b %s;git checkout -q %s;git reset -q --hard origin/%s;git clean -fdq', escapeshellarg ( $gitRepositoryLocalPath ), escapeshellarg ( $gitRepositoryLocalPath . $gitRepositoryPluginPath ), $gitBranchName, $gitBranchName, $gitBranchName );
+runCommand($cmd, false);
+logMsg ( 'Git checkout complete! Now updating SVN trunk...' );
+$cmd = sprintf ( 'rsync -arv --exclude=.buildpath --exclude=.project --exclude=.settings %s %s', $gitRepositoryLocalPath . $gitRepositoryPluginPath . '/', $svnRepositoryPath . $svnRepositoryLocalDirName . '/trunk' );
+runCommand($cmd, false);
+
+// version check
+foreach ( $versionCheckFiles as $checkFile ) {
+	$fileName = $gitRepositoryLocalPath . $gitRepositoryPluginPath . '/' . $checkFile;
+	if (! checkVersionInFileOk ( $argv [1], $fileName )) {
+		logMsg ( 'Can not find version '.$argv[1].' in file ' . $fileName );
+		die ();
+	}
+}
+
+logMsg ( 'SVN trunk updated! Now commiting to SVN trunk...' );
+$cmd = sprintf ( 'cd %s; svn add . --force', $svnRepositoryPath . $svnRepositoryLocalDirName . '/trunk' );
+runCommand($cmd, false);
+$cmd = sprintf ( 'cd %s; svn ci -m "%s"', $svnRepositoryPath . $svnRepositoryLocalDirName . '/trunk', 'Automated push of version ' . $argv [1] . ' changes to trunk' );
+if (! runCommand($cmd)) {
+	logMsg ( 'Unable to commit new version ' . $argv [1] . ' to SVN trunk' );
+	die ();
+}
+
+logMsg ( 'Commit to trunk complete, now deploying new version...' );
+$cmd = sprintf ( 'cd %s; svn cp trunk tags/%s', $svnRepositoryPath . $svnRepositoryLocalDirName, $argv [1] );
+if (! runCommand($cmd)) {
+	logMsg ( 'Unable to tag new version ' . $argv [1] );
+	die ();
+}
+logMsg ( 'Tag complete, one more commit to go...' );
+$cmd = sprintf ( 'cd %s;svn ci -m "tagging version %s"', $svnRepositoryPath . $svnRepositoryLocalDirName, $argv [1] );
+if (! runCommand($cmd)) {
+	logMsg ( 'Unable to commit tag of new version ' . $argv [1] );
+	die ();
+}
+logMsg ( 'All tasks finished OK' );
+
+

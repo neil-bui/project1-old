@@ -1,0 +1,22 @@
+<!-- BEGIN: main -->
+<div class="wrap">
+	<h2>MemberPress integration configuration</h2>
+    Configure what should be tracked from MemberPress plugin.
+    	<table class="form-table">
+      	<tr valign="top">
+      		<td scope="row" class="heading">Support Lifetime Commissions</td>
+      		<td>{memberpress-enable-lifetime}</td>
+      		<td class="greyNote">customer ID will be tracked in Data1, usually used for Lifetime Commissions</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Track recurring commissions</td>
+      		<td>{memberpress-track-refurring}</td>
+      		<td class="greyNote">if you want to pay only one commission for a recurring payment (subscription), this has to be disabled</td>
+      	</tr>
+    	</table>
+
+    	<p class="submit">
+    		{submit}					
+    	</p>
+</div>
+<!-- END: main -->
