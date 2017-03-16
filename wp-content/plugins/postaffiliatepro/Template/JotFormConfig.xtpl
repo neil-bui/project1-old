@@ -1,0 +1,62 @@
+<!-- BEGIN: main -->
+<div class="wrap">
+	<h2>JotForm commission configuration</h2>
+    Configure what should be tracked when a JotForm is filled out by a customer.
+    	<table class="form-table">
+    		<tr valign="top">
+      		<td scope="row" class="heading">Total Cost</td>
+      		<td>{jotform-total-cost}</td>
+      		<td class="greyNote">you can set a value or set a field name coming from JotForm</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Campaign ID</td>
+      		<td>{jotform-commission-campaign}</td>
+      		<td class="greyNote">if you want a specific campaign to create commission for submissions, place the ID here</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Product ID</td>
+      		<td>{jotform-product-id}</td>
+      		<td class="greyNote">if nothing is entered here, customer name will be used</td>
+      	</tr>
+        <tr valign="top">
+      		<td scope="row" class="heading" colspan=3><strong>Extra Data</strong></td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 1</td>
+      		<td>{jotform-data-1}</td>
+      		<td class="greyNote">if nothing is entered here, customer email will be used</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 2</td>
+      		<td>{jotform-data-2}</td>
+      		<td class="greyNote">value or a field name coming from JotForm</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 3</td>
+      		<td>{jotform-data-3}</td>
+      		<td class="greyNote">value or a field name coming from JotForm</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 4</td>
+      		<td>{jotform-data-4}</td>
+      		<td class="greyNote">value or a field name coming from JotForm</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 5</td>
+      		<td>{jotform-data-5}</td>
+      		<td class="greyNote">value or a field name coming from JotForm</td>
+      	</tr>
+      	<tr>
+      		<td colspan="3" class="formBottomNote">
+      		Your JotForm form has to point the "thank you" page to a WordPress page. The sale tracking code will use submitted data for commission creation:<br />
+      		- customer email will be set as order ID, so you could track unique submissions only<br />
+      		- any data set in the fields above will be also used to find the data in submissions, e.g. if you enter 'selectyour' to Data1 field, the code will check if 'selectyour' was submitted, if not, the value 'selectyour' will be used.
+      		</td>
+      	</tr>
+    	</table>
+
+    	<p class="submit">
+    		{submit}					
+    	</p>
+</div>
+<!-- END: main -->

@@ -1,0 +1,31 @@
+<!-- BEGIN: main -->
+<div class="wrap">
+	<h2>Contact form 7 contact commission options</h2>
+	Here you can set up commission which will be registered in Post Affiliate Pro after someone fill contact form and send it  
+    	<table class="form-table">
+    		<tr valign="top">
+        		<th colspan="2" scope="row" class="heading">Form</th>
+        		<td>{contact7-contact-commission-form}</td>
+	            <td class="greyNote">One of Contact form 7 forms collection</td>
+	        </tr>
+        	<tr valign="top">
+        		<th colspan="2" scope="row" class="heading">Commission amount</th>
+        		<td>{contact7-contact-commission-amount}</td>
+	            <td class="greyNote">Amount of commission</td>
+	        </tr>                
+	        <tr valign="top">
+        		<th colspan="2" scope="row" class="heading">Campaign</th>
+        		<td>{contact7-contact-commission-campaign}</td>
+	            <td class="greyNote">Register commission to specified campaign</td>
+	        </tr>
+	        <tr valign="top">
+        		<th colspan="2" scope="row" class="heading">Store form</th>
+        		<td>{contact7-contact-commission-store-form}</td>
+	            <td class="greyNote">Store form data in data1 field with transaction (format field1_name: value1, field2_name: value2, ...)</td>
+	        </tr>
+    	</table>    	
+    	<p class="submit">
+    		{submit}
+    	</p>
+</div>
+<!-- END: main -->

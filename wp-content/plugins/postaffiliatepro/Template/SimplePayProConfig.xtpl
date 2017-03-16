@@ -1,0 +1,21 @@
+<!-- BEGIN: main -->
+<div class="wrap">
+	<h2>Simple Pay Pro integration configuration</h2>
+    Configure what should be tracked from Simple Pay Pro plugin.
+    	<table class="form-table">
+      	<tr valign="top">
+      		<td scope="row" class="heading">Force campaign</td>
+      		<td>{simplepaypro-campaign}</td>
+      		<td class="greyNote">you can specify a campaign which will be used for all orders instead of automatic campaign recognition (by cookie, product ID, ...)</td>
+      	</tr>
+
+      	<!-- tr>
+      		<td colspan="3" class="formBottomNote"></td>
+      	</tr -->
+    	</table>
+
+    	<p class="submit">
+    		{submit}					
+    	</p>
+</div>
+<!-- END: main -->
