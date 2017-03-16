@@ -41,13 +41,13 @@ get_header(); ?>
 				<div class="body_container">
 					<div class="row">
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
-							<h3>
+							<p>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/catagories0bannerimg.png" align="productimage">
-							</h3>
+							</p>
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
 							<?php $_product = wc_get_product( $static_product_id ); ?>
-							<div class="cat_heading1"><span>GET THERE IN STYLE</span></div>
+							<div class="cat_heading1"><span>ARRIVE WITH SWAG</span></div>
 							<h1 class="cat_heading2"><?php echo $_product->get_title(); ?></h1>
 							<div class="cat_pricenow">
 								<span>NOW <?php echo get_woocommerce_currency_symbol() . $_product->get_price(); ?></span>
@@ -68,12 +68,12 @@ get_header(); ?>
 				<div class="body_container">
 					<div class="row">
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6" style="text-align:center;">
-							<h3>
+							<p>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/scooter.png" align="productimage">
-							</h3>
+							</p>
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
-							<div class="cat_heading1 topgaping"><span style="background:#fcbe23">GET THERE IN STYLE</span></div>
+							<div class="cat_heading1 topgaping"><span style="background:#fcbe23">ARRIVE WITH SWAG</span></div>
 							<h1 class="cat_heading2">Swagger Electric Scooter</h1>
 							<div class="cat_pricenow">
 								<span style="background:#fcbe23">NOW $399.99</span>
@@ -94,12 +94,12 @@ get_header(); ?>
 				<div class="body_container">
 					<div class="row">
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
-							<h3>
+							<p>
 								<img src="<?php echo get_template_directory_uri(); ?>/images/swagboard.png" align="productimage">
-							</h3>
+							</p>
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
-							<div class="cat_heading1"><span style="background:#3d3d3d">GET THERE IN STYLE</span></div>
+							<div class="cat_heading1"><span style="background:#3d3d3d">ARRIVE WITH SWAG</span></div>
 							<h1 class="cat_heading2">Swagboard e-Skateboard</h1>
 							<div class="cat_pricenow"><span style="background:#3d3d3d">NOW $299.99</span></div>
 							<div class="cat_deascrption">Whether you're an urban commuter, a student on campus, running errands, or just cruising around, you can now enjoy SWAGTRON’s all new electric skateboard, Swagboard.</div>
@@ -111,7 +111,33 @@ get_header(); ?>
 				</div>
 			</section>
 
+				<!-- Category: Electric Bikes -->
+		<?php elseif( is_product_category( 'electric-bike' ) ) : ?>
+
+			<section class="category_banner bluebgbc">
+				<div class="body_container">
+					<div class="row">
+						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6" style="text-align:center;">
+							<p>
+								<img src="<?php echo get_template_directory_uri(); ?>/images/ebike.png" align="productimage">
+							</p>
+						</div>
+						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
+							<div class="cat_heading1 topgaping" ><span style="background:#3599f1">ARRIVE WITH SWAG</span></div>
+							<h1 class="cat_heading2">SwagCycle Electric Bike</h1>
+							<div class="cat_pricenow"><span style="background:#3599f1">NOW $399</span></div>
+							<div class="cat_deascrption">Whether you're an urban commuter, a student on campus, running errands, or just cruising around, you can now enjoy SWAGTRON’s all new electric bike.</div>
+							<div class="cat_buynowbtn">
+								<a href="<?php echo esc_url( add_query_arg( array( 'add-to-cart' => 85670, 'quantity' => 1 ), $cart_url ) ); ?>">BUY NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		<?php endif; ?>
+
+
 
     <section class="category_product">
       <div class="container">
@@ -125,9 +151,9 @@ get_header(); ?>
 								<div class="col-lg-3 col-xs-12 col-sm-4">
 									<div class="product_border">
 										<div class="product_image">
-											<h3><a href="<?php echo get_permalink( get_the_ID() ); ?>" title="<?php echo get_the_title(); ?>">
+											<h2><a href="<?php echo get_permalink( get_the_ID() ); ?>" title="<?php echo get_the_title(); ?>">
 												<img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
-											</a></h3>
+											</a></h2>
 										</div>
 										<h4 class="catproduct_name">
 											<a href="<?php echo get_permalink( get_the_ID() ); ?>" title="<?php echo get_the_title(); ?>">
@@ -152,46 +178,14 @@ get_header(); ?>
 
 					<?php endif; ?>
 
+					<?php include (TEMPLATEPATH . '/templates/lineup.php'); ?>
+
 			</div>	<!-- End of .container -->
     </section>
 
-    <section class="more_swagtron">
-      <div class="container">
-        <div class="morefrom_swagtron">More from swagtron</div>
-        <div class="row">
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 54 ); ?>">
-							<div class="orangediv">
-								<div class="lineuptext">HOVERBOARDS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image1.png" alt="HOVERBOARDS">
-								</h3>
-							</div>
-						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 59 ); ?>">
-							<div class="blackdiv">
-								<div class="lineuptext">ELECTRIC SKATEBOARDS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image2.png" alt="ELECTRIC SKATEBOARDS">
-								 </h3>
-							</div>
-						</a>
-					</div>
-          <div class="col-lg-4 col-xs-12 col-sm-4 linuphover">
-						<a href="<?php echo get_term_link( 60 ); ?>">
-							<div class="yellowdiv">
-								<div class="lineuptext">ELECTRIC SCOOTERS</div>
-								<h3 class="lineupimagediv">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/lineup_image3.png" alt="ELECTRIC SCOOTERS">
-								</h3>
-							</div>
-						</a>
-					</div>
-        </div>
-      </div>
-    </section>
+
+
+
 
 	</div>
 

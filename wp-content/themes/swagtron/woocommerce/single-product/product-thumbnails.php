@@ -28,6 +28,14 @@ if ( $attachment_ids ) {
 	$loop 		= 0;
 	$columns 	= apply_filters( 'woocommerce_product_thumbnails_columns', 3 );
 	?>
+
+
+
+<?php if( is_front_page() ):?>
+   
+<?php else : ?>
+   
+
 	<div class="thumbnails <?php echo 'columns-' . $columns; ?>" id="content-6"><?php
 
 		foreach ( $attachment_ids as $attachment_id ) {
@@ -66,6 +74,7 @@ if ( $attachment_ids ) {
 			$loop++;
 		}
 
-	?></div>
+	?></div> 
+<?php endif; ?>
 	<?php
 }

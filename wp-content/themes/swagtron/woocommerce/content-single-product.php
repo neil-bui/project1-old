@@ -64,17 +64,22 @@ if( $product->product_type == 'variable' ) {
 }
 ?>
 
-<div class="hidden">
-	<p>
-		<?php //echo 'selected: ' . $selected_attr; ?>
-	</p>
-	<pre>
-		<?php //print_r( $product ); ?>
-	</pre>
-	<pre>
-		<?php //print_r( $variations ); ?>
-	</pre>
-</div>
+<?php
+	// NOTE: VERY HACKY 
+	// tabs call up top to pass shortcode vars
+	$tabs = apply_filters( 'woocommerce_product_tabs', array() ); 
+	// grab description tab
+	$tabvar = $tabs['description']['callback'];
+	// output buffer to ignore echo
+	ob_start();
+	// put description in var to initialize shortcode in description
+if(!empty($tabvar) && function_exists($tabvar)) :
+		$productDescriptionVar = $tabvar();
+	endif;
+	// clear buffer
+	ob_end_clean();
+
+?>
 
 <?php
 	/**
@@ -197,7 +202,7 @@ if( $product->product_type == 'variable' ) {
 
 			
 <!-- VIDEO START -->
-<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
+
 
 	<?php
 	global $vid_title;
@@ -208,6 +213,8 @@ if( $product->product_type == 'variable' ) {
 
 	if ( !empty( $vid_youtube_id ) ) {
 		?>
+		
+		<section class="productdetails_videosec" style="padding: 10px; width: 100%; background-color: #fcfcfc;border-top: 1px solid #e8e8e8;">
 	<div style="border-bottom: 1px solid #e8e8e8; margin-bottom: 9px"><img src="<?php echo get_template_directory_uri(); ?>/images/video.png" width="70" height="70" >
 		<h2 style="float: right; padding:0px 10px 0px 0px">
 			<?php echo $vid_title ?>
@@ -266,17 +273,16 @@ if( $product->product_type == 'variable' ) {
 				<?php echo $vid_description ?><br><br>
 			<a href="<?php echo $vid_call_to_action_url ?>"><button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px"><?php echo $vid_call_to_action ?></button></a>
 			</div></div>
-
+</section>
 		<?php
-		} else {
-			echo "Video to coming soon!";
+	
 		}
 
 		?>
-</section>
+
 <!-- VIDEO END -->
 						
-				<section class="productdetails_middleproductsec" >
+				
 
 
 
@@ -317,6 +323,8 @@ if( $product->product_type == 'variable' ) {
 					//echo '<pre>'; print_r( $comments ); echo '</pre>';
 				?>
 				<?php if( count( $comments ) || count( $five_star_comment ) ) : ?>
+					<section class="productdetails_middleproductsec" >
+
 					<div class="row">
 						<div class="col-lg-6 col-sm-6 col-md-6 hidden-xs">
 							<div class="testimonial_sec">
@@ -346,10 +354,11 @@ if( $product->product_type == 'variable' ) {
 										<?php echo sprintf( _n( '(%s) Review', '(%s) Reviews', $comments_count->approved, 'swagtron' ), $comments_count->approved); ?>
 									</div>
 								</div>
+								<!--
 								<div class="coustomerreview_fullrow">
 									<div class="coustomerreview_fullrow_text"><?php echo ucfirst( wp_trim_words( $five_star_comment[0]->comment_content, 15 ) ); ?></div>
 									<div class="coustomerreview_fullrow_name">SWAGTRON Customer: <?php echo $five_star_comment[0]->comment_author; ?> <span class="date"><?php echo mysql2date( 'm.d.Y', $five_star_comment[0]->comment_date ); ?></span></div>
-								</div>
+								</div>-->
 
 							<?php endif; ?>
 
@@ -375,9 +384,9 @@ if( $product->product_type == 'variable' ) {
 								<a id="showAllComments" style="cursor:pointer">View All Reviews (<?php echo $comments_count->approved; ?>)</a>
 							</div>
 						</div>
-					</div>
+					</div></section>
 				<?php endif; ?>
-			</section>
+			
 
 			<?php //echo '<pre>'; print_r( $comments_count ); echo '</pre>'; ?>
 

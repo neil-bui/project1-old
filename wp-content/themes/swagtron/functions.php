@@ -588,5 +588,6 @@ function onPlayerReady(event) {
 }
 //add our shortcode movie
 add_shortcode('product_video_anywhere', 'product_video_anywhere');
-add_action( 'parse_comment_query', 'product_video_anywhere');
-add_action( 'init', 'product_video_anywhere');
+
+
+
