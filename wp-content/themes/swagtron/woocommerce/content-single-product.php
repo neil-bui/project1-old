@@ -110,17 +110,15 @@ if( $product->product_type == 'variable' ) {
 					<div class="modeltabsec">
 						<ul>
 							<li <?php echo is_page( 89969 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 89969 ); ?>">SWAGWAY X1</a>
+								<a href="<?php echo get_permalink( 89969 ); ?>">X1 New $199</a>
 							</li>
-							<li <?php echo is_page( 89963 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 89963 ); ?>">SWAGTRON T1</a>
+							<li <?php echo is_page( 133905 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 133905 ); ?>">X1 Refurb $149</a>
 							</li>
-							<li <?php echo is_page( 89966 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 89966 ); ?>">SWAGTRON T3</a>
+							<li <?php echo is_page( 133910 ) ? 'class="active"' : ''; ?> >
+								<a href="<?php echo get_permalink( 133910 ); ?>">X2 Refurb $149</a>
 							</li>
-							<li <?php echo is_page( 91688 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 91688 ); ?>">SWAGTRON T5</a>
-							</li>
+
 						</ul>
 					</div>
 				<?php endif; ?>
