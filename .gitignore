@@ -91,6 +91,14 @@ wp-content/*
 !wp-content/themes/
 wp-content/plugins/affiliates-manager/logs/wpam-log.txt
 
+#ignore login-recaptcha plugin
+#wildcard and verbose ignore to be safe
+login-recaptcha/
+*login-recaptcha/
+*login-recaptcha*
+login-recaptchaBAK/
+login-recaptcha.bak/
+
 # ignore these plugins
 wp-content/plugins/hello.php
 

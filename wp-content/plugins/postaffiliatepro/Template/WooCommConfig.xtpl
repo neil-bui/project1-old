@@ -1,0 +1,41 @@
+<!-- BEGIN: main -->
+<div class="wrap">
+	<h2>WooCommerce integration configuration</h2>
+    Configure what should be tracked from WooCommerce plugin.
+    	<table class="form-table">
+      	<tr valign="top">
+      		<td scope="row" class="heading">Per product tracking</td>
+      		<td>{woocomm-per-product}</td>
+      		<td class="greyNote">when selected, a commissions will be created for each product of customer's order</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Product info</td>
+      		<td>{woocomm-product-id}</td>
+      		<td class="greyNote">choose which value will be used for product tracking (note your products should only have one category at a time if you want to track product category)</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Data 1</td>
+      		<td>{woocomm-data1}</td>
+      		<td class="greyNote">if nothing is entered here, customer email will be used</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Force campaign</td>
+      		<td>{woocomm-campaign}</td>
+      		<td class="greyNote">you can specify a campaign which will be used for all orders instead of automatic campaign recognition (by cookie, product ID, ...)</td>
+      	</tr>
+      	<tr valign="top">
+      		<td scope="row" class="heading">Automatic commission status change</td>
+      		<td>{woocomm-status-update}</td>
+      		<td class="greyNote">should a commission status change when order status is changed?</td>
+      	</tr>
+
+      	<!-- tr>
+      		<td colspan="3" class="formBottomNote"></td>
+      	</tr -->
+    	</table>
+
+    	<p class="submit">
+    		{submit}					
+    	</p>
+</div>
+<!-- END: main -->

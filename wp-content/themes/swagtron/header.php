@@ -175,8 +175,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><a href="/product/swagtron-t5-hoverboard/">SwagTron T5</a></li>
                 <li><a href="<?php echo get_term_link(54); ?>">SwagTron T3</a></li>
                 <li><a href="<?php echo get_term_link(47); ?>">SwagTron T1</a></li>
-                <li><a href="<?php echo get_term_link(48); ?>">Swagway X1</a></li>
-                <li><a href="/product/swagway-x2-hoverboard/">Swagway X2</a></li>
+                <li><a href="<?php echo get_permalink( 89969 ); ?>">X1 New $199</a></li>
+                <li><a href="<?php echo get_permalink( 133905 ); ?>">X1 S&D $149</a></li>
+                <li><a href="<?php echo get_permalink( 133910 ); ?>">X2 S&D $149</a></li>
               </ul>
             </li>
             

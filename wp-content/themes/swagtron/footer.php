@@ -3,7 +3,7 @@ $classes = get_body_class();
 ?>
 
   <!-- Start Footer Wrapper -->
-	<div class="footer_sec" style="padding-bottom: 20px">
+	<div class="footer_sec">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-sm-4 hidden-xs">
@@ -35,7 +35,7 @@ $classes = get_body_class();
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-4 col-xs-12">
-					<div class="footer_name">Swagway Affiliate Program</div>
+					<div class="footer_name">Swagtron Affiliate Program</div>
 					<div class="footer_list">
 						<ul class="login_te">
 							<li><a href="https://swagtron.com/affiliate-home/affiliate-register/">Sign Up</a> or <a href="https://swagtron.com/affiliate-home/affiliate-login/">Login</a></li>
@@ -62,6 +62,19 @@ $classes = get_body_class();
             <div class="footer_content">*Swagway and Swagway LLC are not authorized by, endorsed by, affiliated with or otherwise approved by Segway Inc.</div>
 					</div>
 				</div>
+			</div>
+			<div class="footer_menu">
+				<ul>
+          <li><a href="<?php echo site_url(); ?>">Home</a></li>
+          <li><a href="<?php echo get_permalink(9); ?>">Buy Now</a></li>
+          <li><a href="<?php echo get_permalink(89929); ?>">FAQ</a></li>
+          <li><a href="<?php echo get_permalink(54217); ?>">Galleries</a></li>
+          <li><a href="<?php echo get_permalink(54217); ?>">Images</a></li>
+          <li><a href="<?php echo get_permalink(105); ?>">Video Playlists</a></li>
+          <li><a href="<?php echo get_permalink(89933); ?>">Media & Press</a></li>
+          <li><a href="<?php echo get_permalink(89937); ?>">Contact Us</a></li>
+          <li><a href="<?php echo get_permalink(89927); ?>">Hoverboard News</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -148,6 +161,7 @@ $(document).ready(function() {
 
 });
 
+
 // FAQ Accordion
 var acc = document.getElementsByClassName('accordion');
 var i;
@@ -159,5 +173,7 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
+
+<script data-cfasync="false">window.ju_num="7E488C5B-635C-408F-8848-A119FDBB58FC";window.asset_host='//cdn.justuno.com/';(function() {var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=asset_host+'vck.js';var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);})();</script>
 </body>
 </html>
