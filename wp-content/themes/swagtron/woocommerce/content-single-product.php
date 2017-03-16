@@ -222,7 +222,7 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 	</div>
 	<div class="row">
 		<div class="video_box">
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
 			<script>
 				var tag = document.createElement( "script" );
 				tag.src = "https://www.youtube.com/iframe_api";
@@ -236,6 +236,7 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 						height: "315",
 						width: "560",
 						videoId: "<?php echo $vid_youtube_id ?>",
+						playerVars: {rel: 0},
 						events: {
 							"onReady": onPlayerReady
 						}
@@ -246,20 +247,22 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 					event.target.playVideo();
 					event.target.setPlaybackQuality( "hd720" );
 					event.target.setVolume( 0 );
-				}
-
-
-				$( window ).scroll( function () {
+					
+					$( window ).scroll( function () {
 					$( "iframe" ).each( function () {
 						if ( $( window ).scrollTop() > $( this ).offset().top - 225 ) {
 							$( this ).css( "opacity", 1 );
 							player.playVideo();
 						} else {
 							$( this ).css( "opacity", 1 );
-							player.stopVideo();
+							player.pauseVideo();
 						}
 					} );
 				} );
+
+				}
+
+
 			</script>
 
 			<div class="video-container">
@@ -268,11 +271,14 @@ if(!empty($tabvar) && function_exists($tabvar)) :
 			</div>
 		</div>
 		<div class="video_description">
-
 			<div style="line-height: 25px; font-size: 14px; padding: 20px; margin: 0px ">
-				<?php echo $vid_description ?><br><br>
+				<?php echo $vid_description ?>
+<?php /* HIDE TEMP 
+				<br><br>
 			<a href="<?php echo $vid_call_to_action_url ?>"><button type="submit" class="single_add_to_cart_button alt" style="width: 100%; padding: 17px 40px 11px"><?php echo $vid_call_to_action ?></button></a>
-			</div></div>
+			*/ ?>
+			</div>
+		</div>
 </section>
 		<?php
 	
