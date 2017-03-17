@@ -40,7 +40,7 @@
 	    </div>
 	    <div class="box">
 	    	<div class="boxInner">
-				<a href="<?php echo get_term_link( 95 ); ?>">
+				<a href="/product-category/electric-bike/">
 					<div class="bluediv ">
 						<div class="lineuptext">ELECTRIC BIKE</div>
 						<h3 class="lineupimagediv">
