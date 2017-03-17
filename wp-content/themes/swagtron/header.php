@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</a>
 						</li>
             <li>
-              <a href="<?php echo get_term_link(95); ?>">Electric Bikes</a>
+              <a href="/product-category/electric-bike/">Electric Bikes</a>
               <ul>
                 <li>
                   <a href="/product/swagcycle-e-bike-folding-electric-bicycle-by-swagtron/">SwagCycle E-Bike</a>
