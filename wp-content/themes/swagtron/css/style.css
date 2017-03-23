@@ -178,8 +178,7 @@ img{
 	width:100%;
 	position:fixed;
 	background:#fff;
-	/*z-index:100; changed to 10000 to allow for image zoom 02232017*/
-	z-index:10000;
+	z-index:100;
 }
 .top_header{
 	width:100%;
@@ -394,7 +393,7 @@ img{
 	width:100%;
 	float:left;
 	font-family: 'Conv_AvenirLTStd-Black';
-	font-size:30px;
+	font-size:35px;
 	color:#404040;
 	text-transform:uppercase;
 	margin:50px 0 15px;
@@ -2687,8 +2686,7 @@ border-radius: 10px;
 	margin: 70px 0 0;
 }
 .woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
-  /*  width: 16.75% !important; chaged to allow for zoom magnifier 02232017 */
-  width: 90% !important;
+    width: 16.75% !important;
 }
 .woocommerce #content div.product div.thumbnails a.last, .woocommerce div.product div.thumbnails a.last, .woocommerce-page #content div.product div.thumbnails a.last, .woocommerce-page div.product div.thumbnails a.last {
     margin-right: 3.8% !important;
@@ -2756,7 +2754,7 @@ border-radius: 10px;
 	right: 10px;
 	top: 10px;
 	bottom: 10px;
-	overflow: hidden;
+/*	overflow: hidden; */
 }
 /*   .boxInner img {
        width: 100%;  */

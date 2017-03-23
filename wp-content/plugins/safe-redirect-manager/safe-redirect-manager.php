@@ -54,7 +54,7 @@ class SRM_Safe_Redirect_Manager {
 
     private $whitelist_hosts = array();
 
-    public $default_max_redirects = 150;
+    public $default_max_redirects = 200;
 
     /**
      * Sets up redirect manager
@@ -170,7 +170,7 @@ class SRM_Safe_Redirect_Manager {
             $search .= $seperator;
             // Used esc_sql instead of wpdb->prepare since wpdb->prepare wraps things in quotes
             $search .= sprintf( "( ( m.meta_value LIKE '%s%s%s' AND m.meta_key = '%s') OR ( m.meta_value LIKE '%s%s%s' AND m.meta_key = '%s') )", $n, esc_sql( $term ), $n, esc_sql( $this->meta_key_redirect_from ), $n, esc_sql( $term ), $n, esc_sql( $this->meta_key_redirect_to ) );
-            
+
             $seperator = ' OR ';
         }
 

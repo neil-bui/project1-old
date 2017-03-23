@@ -2,7 +2,7 @@
 global $paged, $wp_query;
 get_header();
 ?>
-
+<?php /*
 <div class="hidden">
 	<pre>
 		<?php print_r( $paged ); ?>
@@ -11,12 +11,12 @@ get_header();
 		<?php //print_r( $wp_query ); ?>
 	</pre>
 </div>
-
+*/ ?>
   <!-- Start Body Wrapper -->
   <div class="body_warp">
     <div class="container">
 			<section class="innerpage_content">
-
+				<?php /* 
 				<!--<div class="blog_banner">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/blogfull_image.jpg" alt="blog banner">
 					<div class="blogbanner_content">
@@ -24,7 +24,7 @@ get_header();
 						<p><span>Posted: <a href="#">September 20,2016</a></span> <span>By: <a href="#">Swagtron Adventurers</a></span></p>
 					</div>
 				</div>-->
-
+				*/ ?>
 				<div class="blogpost_section">
 					<?php
 						if ( have_posts() ) : $count = $total_count = 0;
