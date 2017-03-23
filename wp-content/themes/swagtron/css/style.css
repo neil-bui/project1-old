@@ -3018,6 +3018,74 @@ border-radius: 10px;
 }
 
 
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+.navigation {
+    background:rgba(42,42,42,0.99);
+    height: 100%;
+    left: -270px;
+    position: fixed;
+    top: 0;
+    width: 270px;
+}
+.homelogo{
+	display:none !important;
+}
+.navigation ul li {
+    border-bottom: 1px solid #6c6c6c;
+    font-size: 21px;
+    margin-right: 0;
+    padding: 12px 0;
+    width: 100%;
+	text-align:left;
+}
+.navigation ul {
+    margin: 0px 0 0;
+}
+.navigation ul li ul {
+    display: none;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+    visibility: visible;
+    width: 200px;
+}
+.navigation ul li a {
+    color: #fff;
+	padding-left: 20px;
+}
+.navigation ul li a:hover {
+    color: #fff;
+}
+.navigation ul li ul li {
+    background: none;
+    border: none;
+}
+.navigation ul li ul li a {
+    padding: 12px 0 12px 37px;
+}
+
+.hamberger_menu {
+    display: block;
+    margin: 3px 0 0;
+}
+
+.mobile_logo {
+    display: block;
+}
+
+.mobile_carticon {
+    display: block;
+    margin: 3px 0 0;
+}
+
+.menu_header {
+    border-bottom:none;
+}
+
+}
+
+
 
 
 

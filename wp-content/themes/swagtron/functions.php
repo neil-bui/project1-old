@@ -112,8 +112,8 @@ function swagtron_theme_scripts() {
 	wp_enqueue_style( 'basic-style', get_stylesheet_uri() );
 	//wp_enqueue_style( 'font-awesome-style', get_template_directory_uri(). '/css/font-awesome.min.css' );
 	wp_enqueue_style( 'font-awesome-style', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' );
-	wp_enqueue_style( 'main-style', get_template_directory_uri(). '/css/style.css' );
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri(). '/css/bootstrap.css' );
+	wp_enqueue_style( 'main-style', get_template_directory_uri(). '/css/style.css' );
 	//wp_enqueue_style( 'owl.carousel-style', get_template_directory_uri(). '/css/owl.carousel.css' );
 	wp_enqueue_style( 'owl.carousel-style', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' );
 	wp_enqueue_style( 'easy-responsive-tabs-style', get_template_directory_uri(). '/css/easy-responsive-tabs.css' );
