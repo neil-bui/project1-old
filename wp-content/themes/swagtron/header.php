@@ -161,6 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</li>
             <li><a href="<?php echo get_term_link(53); ?>">Hoverboards</a>
               <ul>
+                <li><a href="https://swagtron.com/product/swagtron-t6-off-road-hoverboard/">SwagTron T6</a></li>                
                 <li><a href="https://swagtron.com/product/swagtron-t5-hoverboard/">SwagTron T5</a></li>
                 <li><a href="<?php echo get_term_link(54); ?>">SwagTron T3</a></li>
                 <li><a href="<?php echo get_term_link(47); ?>">SwagTron T1</a></li>

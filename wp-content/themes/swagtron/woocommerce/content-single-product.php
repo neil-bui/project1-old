@@ -109,9 +109,7 @@ if( $product->product_type == 'variable' ) {
 					<div class="pickmodeltext">Pick Your Model</div>
 					<div class="modeltabsec">
 						<ul>
-							<li <?php echo is_page( 89969 ) ? 'class="active"' : ''; ?> >
-								<a href="<?php echo get_permalink( 89969 ); ?>">X1 New $199</a>
-							</li>
+
 							<li <?php echo is_page( 133905 ) ? 'class="active"' : ''; ?> >
 								<a href="<?php echo get_permalink( 133905 ); ?>">X1 Refurb $149</a>
 							</li>
