@@ -1,1 +1,0 @@
-if(typeof window.WPBruiserClient!=='undefined'){window.WPBruiserClient.requestTokens();}

@@ -1,1 +1,0 @@
-jQuery(window).on('ajaxComplete',function(){setTimeout(function(){jQuery(window).lazyLoadXT();},50);});
